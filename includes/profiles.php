@@ -5,7 +5,9 @@
 <p class="sec-sub">Two of the most recognized names in currency and futures trading, published authors and regular guests on CNBC and Bloomberg.</p>
 <div class="profiles">
 <div class="profile">
-<img alt="Boris Schlossberg" src="images/image-02.webp"/>
+<div class="profile-photo">
+<img alt="Boris Schlossberg" src="images/Boris_hero.jpg"/>
+</div>
 <div class="body">
 <h3>Boris Schlossberg</h3>
 <div class="role">Co-Founder · Futures &amp; Prop Trading</div>
@@ -13,7 +15,9 @@
 </div>
 </div>
 <div class="profile">
-<img alt="Kathy Lien" src="images/image-03.webp"/>
+<div class="profile-photo">
+<img alt="Kathy Lien" src="images/Kathy_hero.jpg"/>
+</div>
 <div class="body">
 <h3>Kathy Lien</h3>
 <div class="role">Co-Founder · The Queen of Macro Forex Trader</div>

@@ -6,4 +6,5 @@
 - `assets/js/site.js` — header scroll state, accessible mobile navigation, ticker loop and reveal effects
 - `images/` — local copies of former embedded images
 - `images/hero-market.jpg` — responsive hero artwork with the display headline embedded
+- `images/media-*.svg` — localized vector logos used in the As Seen On section
 - `_old/bktraders_home_v34.html` — untouched original
