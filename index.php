@@ -7,7 +7,7 @@
 <title>BK Traders | Futures &amp; Forex Trading Indicators, Courses &amp; Daily Live Trading</title>
 <meta content="Trade smarter with Boris Schlossberg &amp; Kathy Lien. Premium futures &amp; forex indicators, Pass the Prop coaching, daily live trading and free Daily Intel. Start free on Discord." name="description"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 
 <link href="assets/css/styles.css" rel="stylesheet"/></head>
 <body>

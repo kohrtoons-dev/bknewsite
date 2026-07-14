@@ -3,13 +3,13 @@
 <div aria-live="off" class="ticker-window">
 <div class="ticker-track">
 <div class="ticker-group">
-<span>NQ <b class="up">▲ 21,847 +0.6%</b></span>
-<span>GOLD <b class="up">▲ 3,412 +0.4%</b></span>
-<span>ES <b class="dn">▼ 6,231 -0.2%</b></span>
-<span>EUR/USD <b class="up">▲ 1.0912</b></span>
-<span>FED WATCH: 78% odds of a September cut</span>
-<span>NEXT: CPI Thursday 8:30 AM ET</span>
-<span>BK LIVE STREAM: Weekdays 9:00 AM ET on YouTube</span>
+<span class="market-item"><b class="market-symbol">ES</b><i aria-hidden="true" class="market-arrow dn">▼</i><span class="market-price">6,231</span><b class="market-change dn">−0.2%</b></span>
+<span class="market-item"><b class="market-symbol">NQ</b><i aria-hidden="true" class="market-arrow up">▲</i><span class="market-price">21,847</span><b class="market-change up">+0.6%</b></span>
+<span class="market-item"><b class="market-symbol">GOLD</b><i aria-hidden="true" class="market-arrow up">▲</i><span class="market-price">3,412</span><b class="market-change up">+0.4%</b></span>
+<span class="market-item"><b class="market-symbol">EUR/USD</b><i aria-hidden="true" class="market-arrow up">▲</i><span class="market-price">1.0912</span></span>
+<span class="market-item market-note"><b>NEXT:</b> CPI THURSDAY 8:30 AM ET</span>
+<span class="market-item market-note"><b>FED WATCH:</b> 78% ODDS OF A SEPTEMBER CUT</span>
+<span class="market-item market-note"><b>BK LIVE:</b> WEEKDAYS 9:00 AM ET ON YOUTUBE</span>
 </div>
 </div>
 </div>
