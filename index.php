@@ -11,10 +11,12 @@
 
 <link href="assets/css/styles.css" rel="stylesheet"/></head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 <?php require __DIR__ . "/includes/header.php"; ?>
 
 <?php require __DIR__ . "/includes/ticker.php"; ?>
 
+<main id="main-content">
 <?php require __DIR__ . "/includes/hero.php"; ?>
 
 <?php require __DIR__ . "/includes/media.php"; ?>
@@ -34,6 +36,7 @@
 <?php require __DIR__ . "/includes/reviews.php"; ?>
 
 <?php require __DIR__ . "/includes/final-cta.php"; ?>
+</main>
 
 <?php require __DIR__ . "/includes/footer.php"; ?>
 

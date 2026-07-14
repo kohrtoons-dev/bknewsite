@@ -15,40 +15,57 @@
     --radius:20px;
   }
   *{margin:0;padding:0;box-sizing:border-box}
-  html{scroll-behavior:smooth}
+  html{scroll-behavior:smooth;scroll-padding-top:116px}
   body{font-family:'Inter',Arial,'Helvetica Neue',Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
   img{max-width:100%;display:block}
   a{text-decoration:none;color:inherit}
   .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+  .skip-link{position:fixed;top:10px;left:10px;z-index:1000;background:#fff;color:#070b14;padding:10px 16px;border-radius:8px;font-weight:700;transform:translateY(-150%);transition:transform .2s ease}
+  .skip-link:focus{transform:translateY(0)}
+  main{display:block}
 
   /* ============ TOP NAV ============ */
-  header{position:sticky;top:0;z-index:50;background:rgba(7,11,20,.75);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);transition:background .25s ease,box-shadow .25s ease}
-  .nav{display:flex;align-items:center;justify-content:space-between;height:88px;transition:height .25s ease}
+  header{position:sticky;top:0;z-index:50;background:rgba(7,11,20,.75);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:0;transition:background .25s ease,box-shadow .25s ease}
+  header::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse 172.5px 112.5px at max(99px,calc((100% - 1160px)/2 + 99px)) 36px,rgba(59,130,246,.32),transparent 68%);pointer-events:none;transition:opacity .25s ease}
+  .nav{position:relative;display:flex;align-items:center;justify-content:space-between;height:88px;transition:height .25s ease}
   .nav-logo img{height:52px;width:auto;transition:height .25s ease}
   header.header-scrolled{background:rgba(7,11,20,.92);box-shadow:0 8px 28px rgba(0,0,0,.22)}
   header.header-scrolled .nav{height:64px}
   header.header-scrolled .nav-logo img{height:36px}
+  header.header-scrolled::before{opacity:.72}
   header.header-scrolled + .ticker{top:64px}
   .nav-links{display:flex;align-items:center;gap:26px;font-size:14.5px;font-weight:600}
   .nav-links a{color:var(--ink-soft);transition:color .15s}
   .nav-links a:hover{color:#fff}
   .nav-cta{background:linear-gradient(135deg,var(--blue),var(--blue-deep));color:#fff !important;padding:10px 22px;border-radius:999px;box-shadow:0 4px 18px rgba(59,130,246,.35)}
   .nav-cta:hover{box-shadow:0 6px 24px rgba(59,130,246,.55)}
-  .burger{display:none;font-size:26px;background:none;border:none;cursor:pointer;color:#fff}
+  .burger{display:none;width:44px;height:44px;align-items:center;justify-content:center;background:none;border:0;border-radius:10px;cursor:pointer;color:#fff}
+  .burger-icon,.burger-icon::before,.burger-icon::after{display:block;width:24px;height:2px;border-radius:2px;background:currentColor;transition:transform .2s ease,opacity .2s ease}
+  .burger-icon{position:relative}
+  .burger-icon::before,.burger-icon::after{content:"";position:absolute;left:0}
+  .burger-icon::before{top:-7px}.burger-icon::after{top:7px}
+  .burger[aria-expanded="true"] .burger-icon{background:transparent}
+  .burger[aria-expanded="true"] .burger-icon::before{top:0;transform:rotate(45deg)}
+  .burger[aria-expanded="true"] .burger-icon::after{top:0;transform:rotate(-45deg)}
 
   /* ============ INTEL TICKER ============ */
-  .ticker{position:sticky;top:88px;z-index:49;background:rgba(255,255,255,.03);border-bottom:1px solid var(--line);color:#8fa0be;white-space:nowrap;font-size:13px;height:36px;display:flex;align-items:center;transition:top .25s ease}
+  .ticker{position:sticky;top:88px;z-index:49;background:rgba(0,0,0,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);color:#8fa0be;white-space:nowrap;font-size:13px;height:36px;display:flex;align-items:center;transition:top .25s ease}
   .ticker-label{background:linear-gradient(135deg,var(--gold),var(--gold-deep));color:#141414;font-weight:800;letter-spacing:1px;padding:0 16px;height:100%;display:flex;align-items:center;flex-shrink:0;font-size:12px}
   .ticker-window{flex:1;min-width:0;overflow:hidden}
-  .ticker-track{display:flex;width:max-content;padding-left:16px;animation:scroll 38s linear infinite;will-change:transform}
-  .ticker-track span{margin-right:48px}
+  .ticker-track{display:flex;width:max-content;will-change:transform}
+  .ticker-track.is-ready{animation:ticker-scroll 38s linear infinite}
+  .ticker-group{display:flex;align-items:center;flex-shrink:0;gap:48px;padding:0 32px 0 16px}
   .ticker .up{color:#4ade80}.ticker .dn{color:#f87171}
-  @keyframes scroll{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
-  @media (prefers-reduced-motion: reduce){.ticker-track{animation:none;padding-left:16px}}
+  @keyframes ticker-scroll{to{transform:translateX(-50%)}}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto}
+    .ticker-window{overflow-x:auto;scrollbar-width:thin}
+    .ticker-track.is-ready{animation:none}
+    .ticker-group[aria-hidden="true"]{display:none}
+  }
 
   /* ============ HERO ============ */
   .hero{position:relative;padding:96px 0 80px;overflow:hidden}
-  .hero::before{content:"";position:absolute;top:-220px;left:-140px;width:560px;height:560px;border-radius:50%;background:radial-gradient(circle,rgba(59,130,246,.28),transparent 65%);pointer-events:none}
   .hero::after{content:"";position:absolute;bottom:-260px;right:-120px;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,rgba(240,180,41,.16),transparent 65%);pointer-events:none}
   .hero-grid{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;z-index:1}
   .hero h1{font-size:56px;line-height:1.06;letter-spacing:-1.5px;font-weight:800;text-transform:none}
@@ -208,7 +225,7 @@
     .nav-links{display:none;position:absolute;top:88px;left:0;right:0;background:#0b1120;flex-direction:column;padding:20px;border-bottom:1px solid var(--line);gap:16px}
     .nav-links.open{display:flex}
     header.header-scrolled .nav-links{top:64px}
-    .burger{display:block}
+    .burger{display:inline-flex}
     .grid-4,.grid-3,.quick-grid{grid-template-columns:1fr}
     .hero h1{font-size:34px}
   }
