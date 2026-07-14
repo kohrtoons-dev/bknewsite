@@ -109,7 +109,7 @@
   .stat-copy small{display:block;margin-top:5px;color:#d6dce5;font-size:11.5px;line-height:1.05;text-transform:uppercase;letter-spacing:.9px}
 
   /* ============ MEDIA WALL ============ */
-  .media{position:relative;padding:38px 0 42px;background:var(--bg)}
+  .media{position:relative;padding:30px 0 34px;background:var(--bg)}
   .media::after{content:"";position:absolute;left:4%;right:4%;bottom:0;height:2px;background:linear-gradient(90deg,transparent 0%,rgba(22,143,223,.12) 8%,#168fdf 25%,#62c0ff 50%,#168fdf 75%,rgba(22,143,223,.12) 92%,transparent 100%);box-shadow:0 0 10px rgba(20,125,202,.75);pointer-events:none}
   .media p{text-align:center;font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#71809a;margin-bottom:24px}
   .media-logos{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
@@ -356,7 +356,7 @@
     .hero-stats{width:100%;grid-template-columns:1fr}
     .hero-stat{min-height:72px;padding:12px 20px}
     .hero-stat:not(:last-child)::after{left:8%;right:8%;top:auto;bottom:0;width:auto;height:1px}
-    .media{padding:32px 0 36px}
+    .media{padding:26px 0 29px}
     .media-logos{justify-content:center;gap:18px 24px}
     .media-logo{height:27px;max-width:42%}
     .promo-grid{padding:26px 22px}
