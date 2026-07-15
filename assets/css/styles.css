@@ -20,7 +20,7 @@
   img{max-width:100%;display:block}
   a{text-decoration:none;color:inherit}
   h3{font-size:24px;text-transform:uppercase}
-  .wrap{max-width:1160px;margin:0 auto;padding:0 24px}
+  .wrap{max-width:1320px;margin:0 auto;padding:0 28px}
   .skip-link{position:fixed;top:10px;left:10px;z-index:1000;background:#fff;color:#070b14;padding:10px 16px;border-radius:8px;font-weight:700;transform:translateY(-150%);transition:transform .2s ease}
   .skip-link:focus{transform:translateY(0)}
   main{display:block}
@@ -74,7 +74,7 @@
   }
 
   /* ============ HERO ============ */
-  .hero{--hero-copy-left:9.35%;--hero-copy-width:40%;position:relative;width:100%;max-width:1440px;aspect-ratio:1710/810;margin:0 auto;padding:0;overflow:hidden;background-color:#010812;background-image:url('../../images/hero-market.jpg');background-repeat:no-repeat;background-size:100% auto;background-position:center 90%}
+  .hero{--hero-copy-left:9.35%;--hero-copy-width:40%;position:relative;width:100%;max-width:1600px;aspect-ratio:1710/810;margin:0 auto;padding:0;overflow:hidden;background-color:#010812;background-image:url('../../images/hero-market.jpg');background-repeat:no-repeat;background-size:100% auto;background-position:center 90%}
   .hero::before{content:"";position:absolute;inset:0;background:linear-gradient(rgba(16,92,154,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(16,92,154,.045) 1px,transparent 1px);background-size:54px 54px;mask-image:linear-gradient(90deg,#000,transparent 70%);pointer-events:none}
   .hero::after{content:"";position:absolute;left:4%;right:4%;bottom:0;height:2px;background:linear-gradient(90deg,transparent 0%,rgba(22,143,223,.12) 8%,#168fdf 25%,#62c0ff 50%,#168fdf 75%,rgba(22,143,223,.12) 92%,transparent 100%);box-shadow:0 0 10px rgba(20,125,202,.75);pointer-events:none}
   .hero-grid{position:relative;display:block;width:100%;max-width:none;height:100%;padding:0;z-index:1}
@@ -301,6 +301,65 @@
   .review p{color:#d8e8f7}
   .final::before{background:radial-gradient(circle,rgba(22,142,219,.2),transparent 65%)}
 
+  /* ============ LARGER SITE SCALE ============ */
+  @media (min-width:681px){
+    section{padding:100px 0}
+    .nav-links{gap:30px;font-size:16px}
+    .ticker,.ticker-label{font-size:13.5px}
+    .market-symbol,.market-change{font-size:14px}
+    .market-note{font-size:13px}
+    .eyebrow,.live-dot{font-size:14px;padding:8px 18px}
+    h2.sec{font-size:46px;letter-spacing:-.5px}
+    .sec-sub{max-width:740px;margin-bottom:52px;font-size:19px;line-height:1.5}
+    .grid-3,.grid-4{gap:24px}
+    .card{padding:36px 32px}
+    .card .tag{font-size:12.5px;padding:5px 15px}
+    .card p{font-size:16.5px;line-height:1.55}
+    .card a.more{font-size:16px}
+    .course .thumb{height:108px;font-size:24px}
+    .course .body{padding:29px}
+    .course p{font-size:16px;line-height:1.5}
+    .course .price{font-size:16px}
+    .course .btn-sm{padding:14px 17px;font-size:16px}
+    .btn{padding:16px 34px;font-size:18px}
+    .btn-icon{width:24px;height:24px;flex-basis:24px}
+    .promo,.live{padding:84px 0}
+    .promo-grid{padding:40px 46px}
+    .promo h2,.live h2{font-size:40px}
+    .promo p,.live p{max-width:620px;font-size:19px;line-height:1.5}
+    .profiles{gap:32px}
+    .profile .body{padding:34px}
+    .profile .role{font-size:14.5px}
+    .profile p{font-size:17px;line-height:1.55}
+    .quick-box{min-height:260px;padding:34px 28px}
+    .q-icon{width:96px;height:96px}
+    .quick-box strong{font-size:24px}
+    .quick-box .q-sub{max-width:245px;font-size:16px}
+    .live-grid{gap:42px}
+    .live-meta{font-size:15.5px}
+    .reviews{gap:24px}
+    .review{padding:34px}
+    .review p{font-size:17px;line-height:1.55}
+    .review .who{font-size:15px}
+    .final h2{font-size:48px}
+    .final p{max-width:640px;font-size:19px}
+    footer{font-size:15px}
+    .foot-grid h4{font-size:14.5px}
+    .disclaimer{font-size:12.5px}
+  }
+
+  @media (min-width:1361px){
+    .nav-logo img{height:68px}
+    header.header-scrolled .nav-logo img{height:47px}
+    .hero-kicker{font-size:18px}
+    .hero-promise{font-size:27px}
+    .hero p.sub{max-width:630px;font-size:20.5px}
+    .hero-stats{max-width:620px}
+    .hero-stat{min-height:78px;padding:11px 17px}
+    .stat-copy strong{font-size:27px}
+    .stat-copy small{font-size:13px}
+  }
+
   /* Footer */
   footer{background:var(--bg);color:var(--ink-soft);padding:52px 0 34px;font-size:13.5px;border-top:1px solid var(--line)}
   .foot-grid{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;margin-bottom:34px}
@@ -308,6 +367,11 @@
   .foot-grid a{display:block;margin-bottom:9px;color:var(--ink-soft)}
   .foot-grid a:hover{color:#fff}
   .disclaimer{border-top:1px solid var(--line);padding-top:26px;font-size:11px;line-height:1.65;color:#5a6a88}
+  @media (min-width:681px){
+    footer{font-size:15px}
+    .foot-grid h4{font-size:14.5px}
+    .disclaimer{font-size:12.5px}
+  }
 
   /* Reveal on scroll */
   .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease, transform .6s ease}
@@ -315,7 +379,7 @@
   @media (prefers-reduced-motion: reduce){.reveal{opacity:1;transform:none;transition:none}}
 
   /* Responsive */
-  @media (max-width:1280px){
+  @media (max-width:1360px){
     .hero{max-width:none;aspect-ratio:auto;padding-top:49%;overflow:visible;background-size:100% auto;background-position:center -5.05vw}
     .hero-grid{position:static;height:auto;margin-top:-7vw;padding:12px var(--hero-copy-left) 28px}
     .hero-kicker{position:absolute;top:3.9vw;left:var(--hero-copy-left)}
@@ -330,13 +394,14 @@
     .quick-box:nth-child(4){clip-path:polygon(0 0,100% 0,100% calc(100% - 11px),calc(100% - 11px) 100%,0 100%)}
     .grid-3{grid-template-columns:1fr}
   }
-  @media (max-width:1050px){
+  @media (max-width:1120px){
     .nav-links{display:none;position:absolute;top:88px;left:0;right:0;background:#010812;flex-direction:column;padding:20px;border-top:1px solid rgba(22,142,219,.35);border-bottom:1px solid #168edb;gap:16px;box-shadow:0 12px 30px rgba(0,0,0,.42)}
     .nav-links.open{display:flex}
     header.header-scrolled .nav-links{top:64px}
     .burger{display:inline-flex}
   }
   @media (max-width:680px){
+    .wrap{padding-left:24px;padding-right:24px}
     .grid-4,.grid-3,.quick-grid{grid-template-columns:1fr}
     .quick-box:nth-child(1){clip-path:polygon(11px 0,calc(100% - 11px) 0,100% 11px,100% 100%,0 100%,0 11px)}
     .quick-box:nth-child(2),.quick-box:nth-child(3){clip-path:none}

@@ -19,7 +19,7 @@ enabled on cPanel PHP installations.
 
 1. In cPanel Terminal, test the updater with the full account path:
 
-   `/usr/local/bin/php -q /home/CPANEL_USER/public_html/scripts/update-ticker-cache.php`
+   `/usr/local/bin/php -q /home/bktraders/newsite.bktraders.com/scripts/update-ticker-cache.php`
 
    Some hosts use `/usr/bin/php` instead. `which php` shows the correct path.
 
@@ -27,7 +27,7 @@ enabled on cPanel PHP installations.
 
 3. In cPanel > Cron Jobs, select `Once Per Five Minutes` and use:
 
-   `/usr/local/bin/php -q /home/CPANEL_USER/public_html/scripts/update-ticker-cache.php`
+   `/usr/local/bin/php -q /home/bktraders/newsite.bktraders.com/scripts/update-ticker-cache.php`
 
 4. Keep `storage` and `storage/cache` writable by the account (normally `755`).
    The included `storage/.htaccess` blocks web access to cached files.
