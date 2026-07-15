@@ -34,6 +34,8 @@ enabled on cPanel PHP installations.
 
 The generated cache and lock files are intentionally ignored by Git.
 
-This cron integration updates the macro-headline portion of Daily Intel. The ES,
-NQ, Gold and EUR/USD values remain static until an authorized market-data widget
-or licensed public-display feed is connected.
+The cron integration updates the macro-headline portion of Daily Intel. Market
+quotes are supplied separately by TradingView's free iframe-based Ticker Tape,
+which refreshes itself in the browser and may show delayed data where required by
+the relevant exchange. The iframe version is used for compatibility with local
+development servers and cPanel hosting.

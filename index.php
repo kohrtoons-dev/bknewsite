@@ -9,7 +9,8 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 
-<link href="assets/css/styles.css" rel="stylesheet"/></head>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+</head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <?php require __DIR__ . "/includes/header.php"; ?>

@@ -49,11 +49,20 @@
   .burger[aria-expanded="true"] .burger-icon::after{top:0;transform:rotate(-45deg)}
 
   /* ============ INTEL TICKER ============ */
-  .ticker{position:sticky;top:88px;z-index:49;background:rgba(0,0,0,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid #187cc5;border-bottom:1px solid #0d5b9b;box-shadow:inset 0 1px rgba(77,176,255,.28),inset 0 -1px rgba(28,135,221,.2),0 0 12px rgba(0,112,211,.28);color:#d9e1ec;white-space:nowrap;font-size:12.5px;height:42px;display:flex;align-items:center;overflow:hidden;transition:top .25s ease}
+  .ticker{position:sticky;top:88px;z-index:49;background:rgba(0,0,0,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid #187cc5;border-bottom:1px solid #0d5b9b;box-shadow:inset 0 1px rgba(77,176,255,.28),inset 0 -1px rgba(28,135,221,.2),0 0 12px rgba(0,112,211,.28);color:#d9e1ec;white-space:nowrap;font-size:12.5px;height:46px;display:flex;align-items:center;overflow:hidden;transition:top .25s ease}
   .ticker-label{position:relative;z-index:2;background:linear-gradient(105deg,#f7c344 0%,#eea812 68%,#c77b00 100%);color:#090909;font-weight:800;letter-spacing:1.15px;padding:0 26px 0 22px;height:100%;display:flex;align-items:center;flex-shrink:0;font-size:12.5px;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 9px,100% calc(100% - 9px),calc(100% - 10px) 100%,0 100%);text-shadow:0 1px rgba(255,255,255,.3);filter:drop-shadow(2px 0 5px rgba(240,180,41,.6));box-shadow:inset 0 1px rgba(255,255,255,.65),inset 0 -1px rgba(125,71,0,.4)}
-  .ticker-window{flex:1;align-self:stretch;min-width:0;margin-left:-10px;overflow:hidden}
+.ticker-content-window{position:relative;flex:1 1 auto;align-self:stretch;min-width:0;margin-left:-10px;padding-left:10px;overflow:hidden;background:rgba(2,12,24,.96)}
+  .market-quote{min-width:145px;justify-content:center;background:linear-gradient(180deg,rgba(4,20,37,.98),rgba(1,10,21,.98))}
+  .market-quote::after{content:"";position:absolute;top:16%;right:-1px;width:2px;height:68%;border-radius:2px;background:#168edb;box-shadow:0 0 4px #159cff,0 0 10px rgba(18,143,229,.9),0 0 18px rgba(18,119,208,.55)}
+  .market-quote .market-symbol{color:#e9eef6;letter-spacing:.8px}
+  .market-quote .market-price{color:#bac7d8;font-weight:600}
+  .market-quote .market-change{font-weight:700}
+  .market-quote .market-arrow{display:inline-block;width:0;height:0;border-right:4px solid transparent;border-left:4px solid transparent}
+  .market-quote .up .market-arrow{border-bottom:7px solid currentColor}
+  .market-quote .dn .market-arrow{border-top:7px solid currentColor}
+  .market-pending{color:#708097;font-size:10px;letter-spacing:1px}
   .ticker-track{display:flex;width:max-content;height:100%;will-change:transform}
-  .ticker-track.is-ready{animation:ticker-scroll 38s linear infinite}
+  .ticker-track.is-ready{animation:ticker-scroll 54s linear infinite}
   .ticker-group{display:flex;align-items:stretch;flex-shrink:0}
   .market-item{position:relative;display:flex;align-items:center;gap:7px;min-height:100%;padding:0 22px;background:rgba(2,12,24,.94);box-shadow:inset 0 1px rgba(52,151,234,.11),inset 0 -1px rgba(10,92,162,.1);font-variant-numeric:tabular-nums;letter-spacing:.65px}
   .ticker-group .market-item:first-child{padding-left:32px}
@@ -65,10 +74,11 @@
   .ticker .up{color:#21e89a}.ticker .dn{color:#ff565f}
   .market-note{padding-right:28px;color:#e4e9f1;font-size:12px;letter-spacing:1px}
   .market-note b{color:#f0b429}
+  a.market-note:hover{color:#fff;background:rgba(7,35,61,.98)}
   @keyframes ticker-scroll{to{transform:translateX(-50%)}}
   @media (prefers-reduced-motion: reduce){
     html{scroll-behavior:auto}
-    .ticker-window{overflow-x:auto;scrollbar-width:thin}
+    .ticker-content-window{overflow-x:auto;scrollbar-width:thin}
     .ticker-track.is-ready{animation:none}
     .ticker-group[aria-hidden="true"]{display:none}
   }
