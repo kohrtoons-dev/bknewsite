@@ -50,6 +50,7 @@ if (count($marketQuotes) === 0) {
 <div aria-label="Delayed market quotes and latest central bank headlines" class="ticker-content-window">
 <div class="ticker-track">
 <div class="ticker-group">
+<a class="market-item market-note ticker-live-callout" href="https://www.youtube.com/@BKForex/streams" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="ticker-live-dot"></i><b>BK LIVE:</b> WEEKDAYS 6:00 AM ET ON YOUTUBE</a>
 <?php foreach ($marketQuotes as $quote): ?>
 <?php
 $price = $quote['price'];
@@ -67,10 +68,10 @@ $directionClass = $percent < 0 ? 'dn' : 'up';
 <?php endif; ?>
 </span>
 <?php endforeach; ?>
+<a class="market-item market-note ticker-live-callout" href="https://www.youtube.com/@BKForex/streams" rel="noopener noreferrer" target="_blank"><i aria-hidden="true" class="ticker-live-dot"></i><b>BK LIVE:</b> WEEKDAYS 6:00 AM ET ON YOUTUBE</a>
 <?php foreach ($macroItems as $macroItem): ?>
 <a class="market-item market-note" href="<?= htmlspecialchars($macroItem['url'], ENT_QUOTES, 'UTF-8') ?>" rel="noopener noreferrer" target="_blank"><b><?= htmlspecialchars($macroItem['label'], ENT_QUOTES, 'UTF-8') ?>:</b> <?= htmlspecialchars($macroItem['text'], ENT_QUOTES, 'UTF-8') ?></a>
 <?php endforeach; ?>
-<span class="market-item market-note"><b>BK LIVE:</b> WEEKDAYS 9:00 AM ET ON YOUTUBE</span>
 </div>
 </div>
 </div>

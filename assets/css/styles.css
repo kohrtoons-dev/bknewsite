@@ -75,6 +75,10 @@
   .market-note{padding-right:28px;color:#e4e9f1;font-size:12px;letter-spacing:1px}
   .market-note b{color:#f0b429}
   a.market-note:hover{color:#fff;background:rgba(7,35,61,.98)}
+  .ticker-live-callout{background:linear-gradient(90deg,rgba(86,5,12,.98),rgba(26,7,15,.98));color:#fff;font-weight:700;text-shadow:0 0 8px rgba(255,53,67,.24)}
+  .ticker-live-callout b{color:#ff5360;text-shadow:0 0 8px rgba(255,51,67,.75)}
+  a.ticker-live-callout:hover{background:linear-gradient(90deg,rgba(125,8,18,.98),rgba(45,8,16,.98))}
+  .ticker-live-dot{width:8px;height:8px;flex:0 0 8px;border-radius:50%;background:#ff3444;box-shadow:0 0 5px #ff3444,0 0 12px rgba(255,52,68,.8)}
   @keyframes ticker-scroll{to{transform:translateX(-50%)}}
   @media (prefers-reduced-motion: reduce){
     html{scroll-behavior:auto}
