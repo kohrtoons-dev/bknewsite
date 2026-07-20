@@ -1,3 +1,4 @@
+<?php $siteBase = isset($siteBase) ? $siteBase : ''; ?>
 <footer>
 <div class="wrap">
 <div class="foot-grid">
@@ -7,11 +8,11 @@
 </div>
 <div>
 <h4>Navigate</h4>
-<a href="#indicators">Indicators</a>
-<a href="#education">Education</a>
-<a href="https://www.bktraders.com/find-the-best-broker/">Best Brokers</a>
-<a href="#partners">Prop Firms</a>
-<a href="#intel">Live Daily Intel</a>
+<a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>#indicators">Indicators</a>
+<a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>#education">Education</a>
+<a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>find-the-best-broker/">Best Brokers</a>
+<a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>find-the-best-broker/#prop-firms">Prop Firms</a>
+<a href="https://bktradertools.com/intel">Live Daily Intel</a>
 <a href="https://members.bktraders.com">Members Login</a>
 </div>
 <div>

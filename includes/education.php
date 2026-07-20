@@ -2,13 +2,13 @@
 <div class="wrap">
 <div class="eyebrow">Education</div>
 <h2 class="sec">Trading Courses</h2>
-<p class="sec-sub">From your first chart to your first funded payout. Structured, step-by-step courses taught by two traders who've done it for decades.</p>
+<p class="sec-sub">From your first chart to lasting consistency - follow structured, step-by-step courses taught by two traders with decades of real-world experience.</p>
 <div class="grid-4">
 <div class="course">
 <div class="thumb c1">Start Here</div>
 <div class="body">
-<h3>Free Trading Courses</h3>
-<p>Get two courses free: our Futures Trading Course and Forex Starter Course. The foundations every trader needs, from reading charts to managing risk. Yours instantly.</p>
+<h3>Free Courses</h3>
+<p>Get started with two courses free: our Futures Trading Course and Forex Starter Course. The foundations every trader needs, from reading charts to managing risk. Yours instantly.</p>
 <div class="price"><span class="free">2 COURSES, FREE</span></div>
 <a class="btn-sm green" href="#">Get Free Access</a>
 </div>
@@ -16,8 +16,8 @@
 <div class="course">
 <div class="thumb c2">Get Funded</div>
 <div class="body">
-<h3>Pass the Prop</h3>
-<p>3 months of live coaching with Boris to pass your prop firm challenge and keep your funded account. Includes the futures trading room.</p>
+<h3>Strategy Coaching Club</h3>
+<p>Three months of live coaching. Learn a fresh strategy each month and how to apply it to trade your account, pass prop firm challenges, and work toward consistent payouts.</p>
 <div class="price">3 Months Live Coaching</div>
 <a class="btn-sm" href="https://go.bktraders.com/pass-the-prop-course">Start Coaching</a>
 </div>
