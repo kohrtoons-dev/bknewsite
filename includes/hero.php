@@ -11,7 +11,7 @@
 <div class="hero-stats">
 <div class="hero-stat"><span aria-hidden="true" class="stat-icon stat-calendar"></span><span class="stat-copy"><strong>20+</strong><small>Years Trading</small></span></div>
 <div class="hero-stat"><span aria-hidden="true" class="stat-icon stat-play"></span><span class="stat-copy"><strong>Daily</strong><small>Live Streams<br/>9AM ET</small></span></div>
-<div class="hero-stat"><span aria-hidden="true" class="stat-icon stat-star"></span><span class="stat-copy"><strong>4.7/5</strong><small>Trustpilot Rating</small></span></div>
+<div class="hero-stat"><span aria-hidden="true" class="stat-icon stat-star"></span><span class="stat-copy"><strong>4.6/5</strong><small>Trustpilot Rating</small></span></div>
 </div>
 </div>
 </div>

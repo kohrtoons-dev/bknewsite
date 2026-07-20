@@ -229,6 +229,7 @@
   .review{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;backdrop-filter:blur(8px);transition:background .2s, transform .2s}
   .review:hover{background:var(--card-hover);transform:translateY(-4px)}
   .review .stars{color:var(--gold);letter-spacing:3px;margin-bottom:14px;font-size:14px}
+  .review .star-empty{color:#7d8798;text-shadow:none}
   .review p{font-size:15px;color:#dbe4f3}
   .review .who{margin-top:16px;font-weight:600;font-size:13.5px;color:var(--ink-soft)}
 
