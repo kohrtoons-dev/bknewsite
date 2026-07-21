@@ -34,6 +34,8 @@
 
 <?php require __DIR__ . "/includes/live.php"; ?>
 
+<?php require __DIR__ . "/includes/pricing.php"; ?>
+
 <?php require __DIR__ . "/includes/reviews.php"; ?>
 
 <?php require __DIR__ . "/includes/final-cta.php"; ?>
