@@ -196,11 +196,10 @@
   .profile .role{color:var(--gold);font-weight:700;font-size:13px;margin:6px 0 14px;text-transform:uppercase;letter-spacing:1.5px}
   .profile p{font-size:15px;color:var(--ink-soft)}
   .profile-socials{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;padding-top:20px;border-top:1px solid rgba(22,142,219,.3)}
-  .profile-socials a{position:relative;z-index:0;isolation:isolate;display:inline-grid;grid-template-columns:19px auto;grid-template-rows:auto auto;align-items:center;column-gap:9px;min-width:150px;padding:9px 13px;background:#168edb;color:#bfe5ff;clip-path:polygon(6px 0,calc(100% - 6px) 0,100% 6px,100% calc(100% - 6px),calc(100% - 6px) 100%,6px 100%,0 calc(100% - 6px),0 6px);transition:transform .15s,filter .15s}
+  .profile-socials a{position:relative;z-index:0;isolation:isolate;display:inline-flex;align-items:center;gap:9px;min-width:150px;padding:11px 13px;background:#168edb;color:#bfe5ff;clip-path:polygon(6px 0,calc(100% - 6px) 0,100% 6px,100% calc(100% - 6px),calc(100% - 6px) 100%,6px 100%,0 calc(100% - 6px),0 6px);transition:transform .15s,filter .15s}
   .profile-socials a::before{content:"";position:absolute;z-index:-1;inset:1px;background:#04111f;clip-path:polygon(5px 0,calc(100% - 5px) 0,100% 5px,100% calc(100% - 5px),calc(100% - 5px) 100%,5px 100%,0 calc(100% - 5px),0 5px)}
   .profile-socials a:hover{transform:translateY(-2px);filter:drop-shadow(0 0 8px rgba(22,142,219,.42));color:#fff}
-  .profile-socials svg{grid-row:1/3;width:19px;height:19px;fill:currentColor}
-  .profile-socials span{font-size:11px;font-weight:800;line-height:1;letter-spacing:1px;text-transform:uppercase}
+  .profile-socials svg{width:19px;height:19px;flex:0 0 19px;fill:currentColor}
   .profile-socials strong{color:#eef7ff;font-size:14px;font-weight:600;line-height:1.15}
 
   /* Quick links */
