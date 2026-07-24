@@ -7,8 +7,8 @@
 <div class="course">
 <div class="thumb c1">Start Here</div>
 <div class="body">
-<h3>Free Courses</h3>
-<p>Get started with two courses free: our Futures Trading Course and Forex Starter Course. The foundations every trader needs, from reading charts to managing risk. Yours instantly.</p>
+<h3>Intro Courses</h3>
+<p>Begin with our intro courses: Futures Trading and Forex Starter. Build the foundations every trader needs &mdash; reading charts, managing risk, and more. Enroll now.</p>
 <div class="price"><span class="free">2 COURSES, FREE</span></div>
 <a class="btn-sm green" href="#">Get Free Access</a>
 </div>
