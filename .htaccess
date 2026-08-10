@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Preserve authority from legacy WordPress URLs that now live on homepage sections.
+RewriteRule ^about-us/?$ /#mentors [R=301,L,NE]
+RewriteRule ^trading-signals/?$ /#all-strategy-tools [R=301,L,NE]
+
+# Consolidate legacy broker and prop-firm URLs into the new directory.
+RewriteRule ^best-cfd-broker/?$ /find-the-best-broker/ [R=301,L]
+RewriteRule ^best-prop-firms-forex-cfds/?$ /find-the-best-broker/ [R=301,L]
+RewriteRule ^best-prop-firms/?$ /find-the-best-broker/#prop-firms [R=301,L,NE]
+
+# /kathy-heatmap/ is intentionally not redirected so it can remain at its existing URL.
+

@@ -13,13 +13,13 @@
 <a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>find-the-best-broker/">Best Brokers</a>
 <a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>find-the-best-broker/#prop-firms">Prop Firms</a>
 <a href="https://bktradertools.com/intel">Live Daily Intel</a>
-<a href="https://members.bktraders.com">Members Login</a>
+<a href="https://access.bktraders.com/">Members Login</a>
 </div>
 <div>
 <h4>Support</h4>
-<a href="https://www.bktraders.com/risk-disclosure/">Risk Disclosure</a>
-<a href="https://www.bktraders.com/privacy/">Privacy</a>
-<a href="https://www.bktraders.com/terms-of-service/">Terms of Service</a>
+<a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>risk-disclosure/">Risk Disclosure</a>
+<a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>privacy/">Privacy</a>
+<a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>terms-of-service/">Terms of Service</a>
 </div>
 <div>
 <h4>Follow</h4>

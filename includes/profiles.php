@@ -1,4 +1,4 @@
-<section class="profiles-sec">
+<section class="profiles-sec" id="mentors">
 <div class="wrap">
 <div class="eyebrow">Your Mentors</div>
 <h2 class="sec">Meet Boris &amp; Kathy</h2>

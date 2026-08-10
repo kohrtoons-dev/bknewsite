@@ -15,7 +15,7 @@
 <a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>find-the-best-broker/#prop-firms">Prop Firms</a>
 <a href="https://bktradertools.com/intel">Daily Intel</a>
 <a class="nav-get-started" href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>#pricing">Get Started</a>
-<a class="nav-cta" href="https://members.bktraders.com">Members Login</a>
+<a class="nav-cta" href="https://access.bktraders.com/">Members Login</a>
 </nav>
 </div>
 </header>

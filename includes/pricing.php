@@ -52,7 +52,7 @@
 </article>
 </div>
 
-<article class="pricing-tools-panel">
+<article class="pricing-tools-panel" id="all-strategy-tools">
 <div class="pricing-tools-copy">
 <span class="pricing-kicker">Complete Indicator Suite</span>
 <h3>ALL STRATEGY TOOLS</h3>
