@@ -560,9 +560,8 @@
   .directory-route-type{color:#62c0ff;font-size:15px;font-weight:800;letter-spacing:2px;text-transform:uppercase}
   .directory-route-gold .directory-route-type{color:#ffd970}
   .directory-route-card h3{max-width:80%;margin-top:42px;color:#fff;font-size:38px;line-height:1}
-  .directory-route-card p{max-width:530px;margin-top:16px;color:#aebed0;font-size:18px;line-height:1.5}
-  .directory-route-card strong{display:flex;align-items:center;gap:10px;margin-top:auto;padding-top:28px;color:#bfe5ff;font-size:17px;letter-spacing:.6px;text-transform:uppercase}
-  .directory-route-gold strong{color:#ffd970}
+  .directory-route-card p{max-width:530px;margin-top:16px;margin-bottom:20px;color:#aebed0;font-size:18px;line-height:1.5}
+  .directory-route-card .directory-route-cta{align-self:flex-start;margin-top:auto;max-width:100%;color:#0a0a0a}
   .directory-route-card i{font-size:25px;font-style:normal;transition:transform .2s}
   .directory-route-card:hover i{transform:translateX(5px)}
   .directory-route-region .directory-route-type{align-self:flex-start;padding:7px 12px;background:rgba(22,142,219,.14);border-left:2px solid #62c0ff;color:#bfe5ff;font-size:16px}
