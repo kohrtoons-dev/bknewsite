@@ -569,6 +569,15 @@
   .directory-route-region.directory-route-gold .directory-route-type{background:rgba(240,180,41,.11);border-left-color:#ffd970;color:#ffd970}
   .directory-route-region h3{max-width:90%;margin-top:46px;font-size:clamp(50px,5vw,72px);letter-spacing:1px;text-shadow:0 0 14px rgba(98,192,255,.32)}
   .directory-route-region.directory-route-gold h3{color:#fff4d1;text-shadow:0 0 14px rgba(240,180,41,.34)}
+  .directory-route-us::before{background:linear-gradient(90deg,rgba(2,11,22,.97) 0%,rgba(2,11,22,.9) 43%,rgba(2,11,22,.46) 100%),url("../../images/broker-us-flag-bg.jpg") center/cover no-repeat}
+  .directory-route-international::before{background:linear-gradient(90deg,rgba(2,11,22,.97) 0%,rgba(2,11,22,.88) 43%,rgba(2,11,22,.38) 100%),url("../../images/broker-international-bg.jpg") center/cover no-repeat}
+  .directory-route-us,.directory-route-international{filter:drop-shadow(0 0 13px rgba(22,142,219,.3))}
+  .directory-route-us{filter:drop-shadow(0 0 13px rgba(240,180,41,.28))}
+  .directory-route-market h3{max-width:90%}
+  .directory-route-futures::before{background:linear-gradient(90deg,rgba(2,11,22,.97) 0%,rgba(2,11,22,.9) 43%,rgba(2,11,22,.42) 100%),url("../../images/broker-futures-prop-bg.jpg") center/cover no-repeat}
+  .directory-route-forex::before{background:linear-gradient(90deg,rgba(2,11,22,.97) 0%,rgba(2,11,22,.88) 43%,rgba(2,11,22,.4) 100%),url("../../images/broker-forex-cfd-bg.jpg") center/cover no-repeat}
+  .directory-route-futures{filter:drop-shadow(0 0 13px rgba(240,180,41,.28))}
+  .directory-route-forex{filter:drop-shadow(0 0 13px rgba(22,142,219,.3))}
 
   .directory-hero{padding-bottom:68px}
   .firm-list{display:grid;gap:28px}

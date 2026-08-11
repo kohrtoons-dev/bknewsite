@@ -36,12 +36,12 @@
 <h2 class="sec">Choose by Country</h2>
 <p class="sec-sub">Start with your region, then compare the broker cards available to traders in that jurisdiction. Each regional guide can expand as BK Traders adds providers.</p>
 <div class="directory-routes">
-<a class="directory-route-card directory-route-region directory-route-gold" href="../find-the-best-broker-oanda/">
-<span class="directory-route-number">01</span><span class="directory-route-type">Regional Broker Guide</span>
+<a class="directory-route-card directory-route-region directory-route-gold directory-route-us" href="../find-the-best-broker-oanda/">
+<span class="directory-route-type">Regional Broker Guide</span>
 <h3>UNITED STATES</h3><p>Compare broker options available to U.S. traders, beginning with BK Traders&rsquo; current featured provider.</p><strong>View U.S. brokers <i aria-hidden="true">&rarr;</i></strong>
 </a>
-<a class="directory-route-card directory-route-region" href="../best-cfd-broker/">
-<span class="directory-route-number">02</span><span class="directory-route-type">Regional Broker Guide</span>
+<a class="directory-route-card directory-route-region directory-route-international" href="../best-cfd-broker/">
+<span class="directory-route-type">Regional Broker Guide</span>
 <h3>INTERNATIONAL</h3><p>Compare forex and CFD broker options for eligible traders outside the United States.</p><strong>View international brokers <i aria-hidden="true">&rarr;</i></strong>
 </a>
 </div>
@@ -54,12 +54,12 @@
 <h2 class="sec">Choose by Market</h2>
 <p class="sec-sub">Keep futures programs distinct from Forex and CFD programs so the rules, platforms and instruments are easier to compare.</p>
 <div class="directory-routes">
-<a class="directory-route-card directory-route-gold" href="../best-prop-firms/">
-<span class="directory-route-number">01</span><span class="directory-route-type">Futures</span>
+<a class="directory-route-card directory-route-region directory-route-gold directory-route-market directory-route-futures" href="../best-prop-firms/">
+<span class="directory-route-type">Futures</span>
 <h3>FUTURES PROP FIRMS</h3><p>Compare all five firms featured in the futures guide, including the value proposition shown for each.</p><strong>Compare futures firms <i aria-hidden="true">&rarr;</i></strong>
 </a>
-<a class="directory-route-card" href="../best-prop-firms-forex-cfds/">
-<span class="directory-route-number">02</span><span class="directory-route-type">Forex &amp; CFDs</span>
+<a class="directory-route-card directory-route-region directory-route-market directory-route-forex" href="../best-prop-firms-forex-cfds/">
+<span class="directory-route-type">Forex &amp; CFDs</span>
 <h3>FOREX / CFD PROP FIRMS</h3><p>Compare Axi Select, Hola Prime and FundedNext, including payout, platform and profit-share highlights.</p><strong>Compare Forex / CFD firms <i aria-hidden="true">&rarr;</i></strong>
 </a>
 </div>
