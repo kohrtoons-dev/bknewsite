@@ -51,11 +51,12 @@ $backLabel = $backLabel ?? 'Back to directory';
 <div>
 <span class="firm-category"><?= htmlspecialchars($card['category'], ENT_QUOTES, 'UTF-8') ?></span>
 <h2><?= htmlspecialchars($card['name'], ENT_QUOTES, 'UTF-8') ?></h2>
-<div aria-label="5 out of 5 stars" class="firm-stars">★★★★★</div>
+<div aria-label="5 out of 5 stars" class="firm-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
 </div>
 <span class="firm-logo-wrap"><img alt="<?= htmlspecialchars($card['name'], ENT_QUOTES, 'UTF-8') ?> logo" class="firm-logo" src="../images/firm-logos/<?= htmlspecialchars($card['logo'], ENT_QUOTES, 'UTF-8') ?>"/></span>
 </header>
 <p class="firm-summary"><?= htmlspecialchars($card['summary'], ENT_QUOTES, 'UTF-8') ?></p>
+<?php if (!empty($card['offer'])): ?><div class="firm-offer"><?= htmlspecialchars($card['offer'], ENT_QUOTES, 'UTF-8') ?></div><?php endif; ?>
 <div class="firm-value-grid">
 <div>
 <h3>VALUE PROPOSITION</h3>

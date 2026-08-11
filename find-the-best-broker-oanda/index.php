@@ -1,16 +1,17 @@
 <?php
-$pageTitle = 'Best Broker for U.S. Traders: OANDA | BK Traders';
-$pageDescription = 'Review BK Traders’ highlighted OANDA value proposition for eligible U.S. forex and CFD traders.';
+$pageTitle = 'Best Brokers for U.S. Traders | BK Traders';
+$pageDescription = 'Compare BK Traders highlighted broker options for eligible U.S. forex traders.';
 $canonical = 'https://www.bktraders.com/find-the-best-broker-oanda/';
-$pageEyebrow = 'United States · CFD Broker';
-$pageHeading = 'OANDA for U.S. Traders';
-$pageIntro = 'Our U.S. broker route. Review the account, instruments, pricing and current promotional terms available through OANDA’s U.S. entity.';
-$cards = [[
-  'name' => 'OANDA', 'mark' => 'OA', 'logo' => 'oanda.svg', 'category' => 'U.S. Broker Route',
-  'summary' => 'A long-established broker route for eligible U.S. traders, with a value proposition centered on regulation, trading costs and charting access.',
-  'values' => ['Regulated by CFTC/NFA, with additional global entities shown in the BK comparison', 'Free TradingView Premium highlighted in the BK offer', 'Low trading fees', 'Limited leverage options noted as a tradeoff'],
-  'markets' => ['Forex pairs', 'Cryptocurrencies through the applicable provider', 'Product availability varies by U.S. entity'],
-  'note' => 'OANDA Corporation is a registered Futures Commission Merchant and Retail Foreign Exchange Dealer with the CFTC and is a member of the NFA (ID 0325821). CFDs are not available to U.S. residents. Crypto services may be provided by a separate entity. Verify the current offer and eligibility before opening an account.',
-  'url' => 'https://go.oanda.com/visit/?bta=37482&brand=oandaus', 'cta' => 'Review OANDA', 'gold' => true,
-]];
+$pageEyebrow = 'United States · Broker Guide';
+$pageHeading = 'Brokers for U.S. Traders';
+$pageIntro = 'Broker availability is driven by jurisdiction. Start with the providers currently available to eligible U.S. traders; more broker cards can be added as the guide expands.';
+$cards = [
+ [
+  'name'=>'OANDA','mark'=>'OA','logo'=>'oanda.svg','category'=>'U.S. Forex Broker','summary'=>'A long-established broker route for eligible U.S. traders, with a value proposition centered on regulation, trading costs and charting access.',
+  'values'=>['Regulated by the CFTC and NFA','Free TradingView Premium highlighted in the BK offer','Low trading fees','Established U.S. forex access'],
+  'markets'=>['Forex pairs','Cryptocurrencies through the applicable provider','Product availability varies by U.S. entity'],
+  'note'=>'OANDA Corporation is a registered Futures Commission Merchant and Retail Foreign Exchange Dealer with the CFTC and is a member of the NFA (ID 0325821). CFDs are not available to U.S. residents. Verify current eligibility and terms directly with OANDA.',
+  'url'=>'https://www.oanda.com/','cta'=>'Visit OANDA','gold'=>true,
+ ],
+];
 require dirname(__DIR__) . '/includes/directory-page.php';

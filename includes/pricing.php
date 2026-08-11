@@ -17,7 +17,7 @@
 </div>
 <h3>ACTIVE TRADER</h3>
 <p class="pricing-description">Daily access to Kathy and Boris, actionable trade ideas, premium indicators and the full BK trading community.</p>
-<div class="pricing-price"><sup>$</sup><strong>197</strong><span>per month</span></div>
+<div class="pricing-price"><sup>$</sup><strong>149</strong><span>per month</span></div>
 <ul class="pricing-features">
 <li>Kathy's realtime trade ideas</li>
 <li>Boris' futures and indices trading room</li>
@@ -38,7 +38,7 @@
 </div>
 <h3>STRATEGY COACHING CLUB</h3>
 <p class="pricing-description">Three months of live coaching. Learn a fresh strategy each month and how to apply it to your account and prop-firm challenges.</p>
-<div class="pricing-price"><sup>$</sup><strong>675</strong><span>one-time payment</span></div>
+<div class="pricing-price"><sup>$</sup><strong>397</strong><span>per 3 months</span></div>
 <ul class="pricing-features">
 <li>Three months of live strategy coaching</li>
 <li>Boris' futures and indices trading room</li>
@@ -48,7 +48,7 @@
 <li>Direct line to Boris and Kathy</li>
 </ul>
 <a class="btn btn-gold" href="https://go.bktraders.com/pass-the-prop-course">Join the Coaching Club</a>
-<small>One payment. No recurring charge.</small>
+<small>Billed every three months.</small>
 </article>
 </div>
 
@@ -70,21 +70,14 @@
 <div class="pricing-term-grid">
 <div class="pricing-term">
 <span>Flexible</span><h4>MONTHLY</h4>
-<div class="pricing-term-price"><sup>$</sup><strong>125</strong><small>/ month</small></div>
+<div class="pricing-term-price"><sup>$</sup><strong>149</strong><small>/ month</small></div>
 <a class="btn btn-outline" href="https://buy.stripe.com/aEUcPOf5o2Z3gKY4gD">Choose Monthly</a>
 <a class="pricing-paypal" href="https://go.bktraders.com/bktrading-tools-monthly">Prefer PayPal?</a>
 </div>
-<div class="pricing-term">
-<span>Save 24%</span><h4>6 MONTHS</h4>
-<div class="pricing-term-price"><sup>$</sup><strong>95</strong><small>/ month</small></div>
-<p>$570 billed every six months</p>
-<a class="btn btn-outline" href="https://buy.stripe.com/fZecPO4qKfLPamAcN8">Choose 6 Months</a>
-<a class="pricing-paypal" href="https://go.bktraders.com/bktrading-tools-6-months">Prefer PayPal?</a>
-</div>
 <div class="pricing-term pricing-term-best">
 <div class="pricing-best-label">Best Deal</div>
-<span>Save 30%</span><h4>ANNUAL</h4>
-<div class="pricing-term-price"><sup>$</sup><strong>83</strong><small>/ month</small></div>
+<span>Save 44%</span><h4>ANNUAL</h4>
+<div class="pricing-term-price"><sup>$</sup><strong>83.08</strong><small>/ month</small></div>
 <p>Billed annually</p>
 <a class="btn btn-gold" href="https://buy.stripe.com/aEUcPOf5o2Z3gKY4gD">Choose Annual</a>
 <a class="pricing-paypal" href="https://go.bktraders.com/bktrading-tools-annual-access">Prefer PayPal?</a>

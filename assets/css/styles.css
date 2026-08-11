@@ -124,6 +124,8 @@
   .stat-star::before{content:"☆";position:absolute;inset:-9px 0 0;font-size:48px;line-height:1}
   .stat-copy strong{display:block;color:#f2f4f7;font-size:24px;line-height:.9;font-weight:800;text-transform:uppercase}
   .stat-copy small{display:block;margin-top:5px;color:#d6dce5;font-size:11.5px;line-height:1.05;text-transform:uppercase;letter-spacing:.9px}
+  .hero-stat:last-child .stat-star{color:#00b67a;filter:drop-shadow(0 0 7px rgba(0,182,122,.38))}
+  .hero-stat:last-child .stat-star::before{content:"\2605"}
 
   /* ============ MEDIA WALL ============ */
   .media{position:relative;padding:30px 0 34px;background:var(--bg)}
@@ -461,15 +463,15 @@
   .pricing-tools-features{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px 20px;margin-top:24px;padding:0;list-style:none;color:#d7e3ef;font-size:15px}
   .pricing-tools-features li{position:relative;padding-left:17px;line-height:1.3}
   .pricing-tools-features li::before{content:"+";position:absolute;left:0;color:#f0b429;font-weight:900}
-  .pricing-term-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+  .pricing-term-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
   .pricing-term{position:relative;z-index:0;isolation:isolate;display:flex;min-height:350px;flex-direction:column;padding:27px 22px;border:0;background:#168edb;clip-path:polygon(8px 0,calc(100% - 8px) 0,100% 8px,100% calc(100% - 8px),calc(100% - 8px) 100%,8px 100%,0 calc(100% - 8px),0 8px);overflow:hidden}
   .pricing-term::before{content:"";position:absolute;z-index:-1;inset:1px;background:rgba(1,8,18,.94);clip-path:polygon(7px 0,calc(100% - 7px) 0,100% 7px,100% calc(100% - 7px),calc(100% - 7px) 100%,7px 100%,0 calc(100% - 7px),0 7px)}
   .pricing-term>span{color:#62c0ff;font-size:13px;font-weight:800;letter-spacing:1.4px;text-transform:uppercase}
   .pricing-term h4{margin-top:7px;color:#fff;font-size:24px;line-height:1;text-transform:uppercase}
   .pricing-term-price{display:flex;align-items:flex-end;margin:24px 0 10px;color:#fff}
-  .pricing-term-price sup{align-self:flex-start;margin-top:5px;color:#ffd970;font-size:18px;font-weight:800}
-  .pricing-term-price strong{font-size:54px;line-height:.8}
-  .pricing-term-price small{margin-left:4px;color:#93a5ba;font-size:13px}
+  .pricing-term-price sup{align-self:flex-start;margin-top:7px;color:#ffd970;font-size:24px;font-weight:800}
+  .pricing-term-price strong{font-size:clamp(68px,5.5vw,88px);line-height:.76;letter-spacing:-1.5px}
+  .pricing-term-price small{margin-left:7px;color:#93a5ba;font-size:15px}
   .pricing-term>p{min-height:38px;color:#71849a;font-size:13px}
   .pricing-term .btn{width:100%;margin-top:auto;padding:13px 14px;font-size:15px}
   .pricing-paypal{align-self:center;margin-top:11px;color:#62c0ff;font-size:13px;text-decoration:underline;text-underline-offset:3px}
@@ -563,6 +565,10 @@
   .directory-route-gold strong{color:#ffd970}
   .directory-route-card i{font-size:25px;font-style:normal;transition:transform .2s}
   .directory-route-card:hover i{transform:translateX(5px)}
+  .directory-route-region .directory-route-type{align-self:flex-start;padding:7px 12px;background:rgba(22,142,219,.14);border-left:2px solid #62c0ff;color:#bfe5ff;font-size:16px}
+  .directory-route-region.directory-route-gold .directory-route-type{background:rgba(240,180,41,.11);border-left-color:#ffd970;color:#ffd970}
+  .directory-route-region h3{max-width:90%;margin-top:46px;font-size:clamp(50px,5vw,72px);letter-spacing:1px;text-shadow:0 0 14px rgba(98,192,255,.32)}
+  .directory-route-region.directory-route-gold h3{color:#fff4d1;text-shadow:0 0 14px rgba(240,180,41,.34)}
 
   .directory-hero{padding-bottom:68px}
   .firm-list{display:grid;gap:28px}
@@ -571,12 +577,14 @@
   .firm-card-heading{position:static;top:auto;z-index:auto;display:flex;align-items:flex-start;justify-content:space-between;gap:30px;border:0;background:transparent;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;transition:none}
   .firm-category{color:#62c0ff;font-size:14px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase}
   .firm-card h2{margin-top:7px;color:#fff;font-size:44px;line-height:1;text-transform:uppercase}
-  .firm-stars{margin-top:9px;color:#ffd970;font-size:18px;letter-spacing:3px;text-shadow:0 0 9px rgba(240,180,41,.4)}
+  .firm-offer{display:inline-flex;align-items:center;align-self:flex-start;margin:18px 0 0;padding:9px 15px;border-left:2px solid #f0b429;background:linear-gradient(90deg,rgba(240,180,41,.16),rgba(240,180,41,.03));color:#ffd970;font-size:16px;font-weight:800;letter-spacing:1px;text-transform:uppercase;filter:drop-shadow(0 0 7px rgba(240,180,41,.15))}
+  .firm-stars{margin-top:9px;color:#ffd970;font-size:36px;letter-spacing:5px;line-height:1;text-shadow:0 0 12px rgba(240,180,41,.48)}
   .firm-monogram{display:flex;width:78px;height:78px;flex:0 0 78px;align-items:center;justify-content:center;border:1px solid #f0b429;color:#ffd970;font-size:25px;font-weight:900;clip-path:polygon(9px 0,calc(100% - 9px) 0,100% 9px,100% calc(100% - 9px),calc(100% - 9px) 100%,9px 100%,0 calc(100% - 9px),0 9px);box-shadow:inset 0 0 20px rgba(240,180,41,.12),0 0 10px rgba(240,180,41,.1)}
-  .firm-logo-wrap{display:flex;width:230px;height:78px;flex:0 0 230px;align-items:center;justify-content:flex-end;padding:8px 0;background:transparent}
-  .firm-logo{width:100%;max-width:230px;height:100%;max-height:62px;object-fit:contain;object-position:right center;filter:drop-shadow(0 0 8px rgba(98,192,255,.16))}
+  .firm-logo-wrap{display:flex;width:345px;height:117px;flex:0 0 345px;align-items:center;justify-content:flex-end;padding:8px 0;background:transparent}
+  .firm-logo{width:100%;max-width:345px;height:100%;max-height:93px;object-fit:contain;object-position:right center;filter:drop-shadow(0 0 8px rgba(98,192,255,.16))}
   .firm-logo[src$="oanda.svg"]{filter:brightness(2.2) drop-shadow(0 0 8px rgba(98,192,255,.16))}
-  .firm-logo[src$="lucid.webp"]{transform:scale(1.5);transform-origin:right center}
+  .firm-logo[src$="lucid-transparent-cropped.png"]{transform:scale(1.95);transform-origin:right center}
+  .firm-logo[src$="hola-prime-transparent.png"]{transform:scale(2.47);transform-origin:right center}
   .firm-summary{max-width:850px;margin-top:18px;color:#bfccda;font-size:18px;line-height:1.55}
   .firm-value-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(240px,.7fr);gap:44px;margin:30px 0 28px;padding:26px 0;border-top:1px solid rgba(22,142,219,.42);border-bottom:1px solid rgba(22,142,219,.25)}
   .firm-value-grid h3{margin-bottom:14px;color:#eef7ff;font-size:18px;letter-spacing:1px}
@@ -605,17 +613,19 @@
     .prop-grid,.broker-guide-grid{grid-template-columns:1fr}
     .directory-route-card{min-height:300px;padding:30px 26px}
     .directory-route-card h3{font-size:32px}
+    .directory-route-region h3{font-size:42px}
     .firm-card{padding:30px 24px}
     .firm-card h2{font-size:34px}
-    .firm-logo-wrap{width:150px;height:62px;flex-basis:150px}
-    .firm-logo{max-height:50px}
+    .firm-logo-wrap{width:225px;height:93px;flex-basis:225px}
+    .firm-logo{max-height:75px}
     .firm-points{grid-template-columns:1fr}
   }
   @media (max-width:460px){
     .firm-card-heading{flex-direction:column-reverse;gap:18px}
-    .firm-logo-wrap{width:180px;height:54px;flex-basis:auto;justify-content:flex-start}
-    .firm-logo{max-height:48px;object-position:left center}
-    .firm-logo[src$="lucid.webp"]{transform-origin:left center}
+    .firm-logo-wrap{width:270px;height:81px;flex-basis:auto;justify-content:flex-start}
+    .firm-logo{max-height:72px;object-position:left center}
+    .firm-logo[src$="lucid-transparent-cropped.png"]{transform-origin:left center}
+    .firm-logo[src$="hola-prime-transparent.png"]{transform-origin:left center}
     .profile-socials a{width:100%}
   }
 

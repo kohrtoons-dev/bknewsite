@@ -25,7 +25,6 @@
 <h4>Follow</h4>
 <a href="https://www.youtube.com/@BKForex">YouTube</a>
 <a href="#">Discord</a>
-<a href="#">Twitter / X</a>
 </div>
 </div>
 <div class="disclaimer">

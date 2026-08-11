@@ -6,7 +6,7 @@
 <a class="btn btn-gold" href="#">Join Free Discord<img alt="" aria-hidden="true" class="btn-icon btn-icon-discord" src="images/discord.png"/></a>
 <a class="btn btn-outline" href="#education">Trading Courses</a>
 <a class="btn btn-outline" href="#indicators">Indicators</a>
-<a class="btn btn-outline" href="#intel">Live Daily Intel</a>
+<a class="btn btn-outline" href="https://bktradertools.com/intel">Live Daily Intel</a>
 </div>
 </div>
 </section>

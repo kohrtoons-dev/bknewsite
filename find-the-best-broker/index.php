@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Find the Best Broker & Prop Firm | BK Traders</title>
-<meta content="Choose a CFD broker by region or compare futures and forex/CFD prop firms selected by BK Traders." name="description"/>
+<title>Find the Best Broker &amp; Prop Firm | BK Traders</title>
+<meta content="Choose a broker by region or compare futures and Forex/CFD prop firms selected by BK Traders." name="description"/>
 <link href="https://www.bktraders.com/find-the-best-broker/" rel="canonical"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
@@ -21,11 +21,11 @@
 <div>
 <div class="eyebrow">BK Broker Directory</div>
 <h1>Find the Right Trading Route</h1>
-<p>Choose brokers by country access and prop firms by the market you trade. Each guide includes the value proposition highlighted by BK Traders and direct access to the current offer.</p>
+<p>Choose brokers by regional access and prop firms by the market you trade. Each guide includes the value proposition highlighted by BK Traders and direct access to current offers.</p>
 </div>
 <aside class="broker-disclosure">
 <strong>Start with your location</strong>
-<p>Broker products and eligibility depend on jurisdiction. Prop-firm rules, payouts and promotions can change, so always verify the current provider terms.</p>
+<p>Broker products and eligibility depend on jurisdiction. Prop-firm rules, payouts and promotions can change, so always verify current provider terms.</p>
 </aside>
 </div>
 </section>
@@ -34,15 +34,15 @@
 <div class="wrap">
 <div class="eyebrow">Forex &amp; CFD Brokers</div>
 <h2 class="sec">Choose by Country</h2>
-<p class="sec-sub">The U.S. and international routes remain separate so visitors land on the provider and account structure designed for their location.</p>
+<p class="sec-sub">Start with your region, then compare the broker cards available to traders in that jurisdiction. Each regional guide can expand as BK Traders adds providers.</p>
 <div class="directory-routes">
-<a class="directory-route-card directory-route-gold" href="../find-the-best-broker-oanda/">
-<span class="directory-route-number">01</span><span class="directory-route-type">United States</span>
-<h3>OANDA</h3><p>Review the highlighted U.S. forex route, its regulatory context, market access and current offer.</p><strong>Explore U.S. broker <i aria-hidden="true">→</i></strong>
+<a class="directory-route-card directory-route-region directory-route-gold" href="../find-the-best-broker-oanda/">
+<span class="directory-route-number">01</span><span class="directory-route-type">Regional Broker Guide</span>
+<h3>UNITED STATES</h3><p>Compare broker options available to U.S. traders, beginning with BK Traders&rsquo; current featured provider.</p><strong>View U.S. brokers <i aria-hidden="true">&rarr;</i></strong>
 </a>
-<a class="directory-route-card" href="../best-cfd-broker/">
-<span class="directory-route-number">02</span><span class="directory-route-type">International</span>
-<h3>AXI</h3><p>Review the international forex and CFD route, including Axi Select’s highlighted funding proposition.</p><strong>Explore international broker <i aria-hidden="true">→</i></strong>
+<a class="directory-route-card directory-route-region" href="../best-cfd-broker/">
+<span class="directory-route-number">02</span><span class="directory-route-type">Regional Broker Guide</span>
+<h3>INTERNATIONAL</h3><p>Compare forex and CFD broker options for eligible traders outside the United States.</p><strong>View international brokers <i aria-hidden="true">&rarr;</i></strong>
 </a>
 </div>
 </div>
@@ -52,15 +52,15 @@
 <div class="wrap">
 <div class="eyebrow">Best Firms</div>
 <h2 class="sec">Choose by Market</h2>
-<p class="sec-sub">Keep futures programs distinct from forex and CFD programs so the rules, platforms and instruments are easier to compare.</p>
+<p class="sec-sub">Keep futures programs distinct from Forex and CFD programs so the rules, platforms and instruments are easier to compare.</p>
 <div class="directory-routes">
 <a class="directory-route-card directory-route-gold" href="../best-prop-firms/">
 <span class="directory-route-number">01</span><span class="directory-route-type">Futures</span>
-<h3>FUTURES PROP FIRMS</h3><p>Compare all five firms featured in the futures guide, including the value proposition shown for each.</p><strong>Compare futures firms <i aria-hidden="true">→</i></strong>
+<h3>FUTURES PROP FIRMS</h3><p>Compare all five firms featured in the futures guide, including the value proposition shown for each.</p><strong>Compare futures firms <i aria-hidden="true">&rarr;</i></strong>
 </a>
 <a class="directory-route-card" href="../best-prop-firms-forex-cfds/">
 <span class="directory-route-number">02</span><span class="directory-route-type">Forex &amp; CFDs</span>
-<h3>CFD PROP FIRMS</h3><p>Compare Axi Select, FundedNext and Hola Prime, including payout, platform and profit-share highlights.</p><strong>Compare CFD firms <i aria-hidden="true">→</i></strong>
+<h3>FOREX / CFD PROP FIRMS</h3><p>Compare Axi Select, Hola Prime and FundedNext, including payout, platform and profit-share highlights.</p><strong>Compare Forex / CFD firms <i aria-hidden="true">&rarr;</i></strong>
 </a>
 </div>
 </div>
