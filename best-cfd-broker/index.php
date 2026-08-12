@@ -11,6 +11,6 @@ $cards = [[
   'values' => ['100% free — no registration or monthly fees', 'Real funds — no virtual capital or simulated trading', 'Get up to $1 million in funding', 'Up to 80% profit share', 'No trailing or daily drawdowns'],
   'markets' => ['Forex / CFDs', 'Indices', 'Commodities', 'Cryptocurrencies where available'],
   'note' => 'Country restrictions, deposits, funding stages and profit-share terms vary and may have changed since the promotional graphic was produced. Confirm the current terms and whether the applicable Axi entity can serve your jurisdiction.',
-  'url' => 'https://proptraderedge.com/axiselect_discount', 'cta' => 'Get the latest deal with Code EDGE', 'gold' => true,
+  'url' => 'https://proptraderedge.com/axiselect_discount', 'cta' => 'Get Funded Now', 'gold' => true,
 ]];
 require dirname(__DIR__) . '/includes/directory-page.php';

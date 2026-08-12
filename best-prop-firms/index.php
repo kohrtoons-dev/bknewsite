@@ -8,28 +8,28 @@ $pageIntro = 'Compare the funding paths, fee structure, drawdown model, account 
 $cards = [
  [
   'name'=>'APEX TRADER FUNDING','mark'=>'A','logo'=>'apex.svg','category'=>'Futures Prop Firm','summary'=>'A one-step futures evaluation route emphasizing low evaluation costs, a strong initial profit share and multi-account access.','offer'=>'Use code BKSAVE for 80% off',
-  'values'=>['One-step evaluation','Low evaluation fees','100% profit share on the first $25K','90% profit share beyond that','Trade up to 20 accounts'],
+  'values'=>['One Step Evaluation','Low Evaluation Fees','100% Profit Share on First $25K','90% Profit Share Beyond That','Trade Up to 20 Accounts'],
   'markets'=>['Futures','Indices','Commodities','Cryptocurrencies','Currencies'],'note'=>'Account rules, eligible contracts and payout requirements vary by plan. Verify current terms before purchasing an evaluation.','url'=>'https://proptraderedge.com/apextrader_discount','cta'=>'Get the latest deal with Code BKSAVE','gold'=>true,
  ],
  [
   'name'=>'FUNDEDNEXT','mark'=>'FN','logo'=>'fundednext.svg','category'=>'Multi-Market Prop Firm','summary'=>'A multi-market evaluation route emphasizing large simulated account sizes, high reward payouts and time-based payout assurances.','offer'=>'Use code PTEDGE for 47% off',
-  'values'=>['Up to 95% reward payout','Up to $300K in simulated accounts','24-hour reward payout or $1,000 extra highlighted','No time limits','Fee refunded on passed challenges','120% challenge fee refund highlighted on repeat purchase','Accepts U.S. clients highlighted in the BK graphic'],
-  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD','Futures programs where offered'],'note'=>'Select the futures-specific program where applicable. Programs, country access and refund conditions can differ by product.','url'=>'https://proptraderedge.com/fundednext_discount','cta'=>'Get the latest deal with Code PTEDGE','gold'=>false,
+  'values'=>['Up to 95% Reward Payout','Up to $300K in Simulated Accounts','24 Hr Reward payout or receive $1,000 Extra','No Time Limits','Fee Refunded on Passed Challenges','120% Challenge Fee Refunded on repeat purchase','Accepts US Clients'],
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies (via CFD)','Futures'],'note'=>'Select the futures-specific program where applicable. Programs, country access and refund conditions can differ by product.','url'=>'https://proptraderedge.com/fundednext_discount','cta'=>'Get the latest deal with Code PTEDGE','gold'=>false,
  ],
  [
   'name'=>'HOLA PRIME','mark'=>'HP','logo'=>'hola-prime-transparent.png','category'=>'Multi-Market Prop Firm','summary'=>'A funding route focused on fast payouts, broad platform choice, flexible holding rules on select accounts and coaching access.',
-  'values'=>['One-hour payouts highlighted','Up to 95% profit split','MT4, MT5, cTrader, Match-Trader and DXtrade highlighted','News trading and weekend holds on select accounts','Coaching available','Daily transparency reports'],
-  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD'],'note'=>'The current BK graphic emphasizes forex and CFD products. Confirm whether a futures-specific program is currently offered before purchasing.','url'=>'https://proptraderedge.com/holaprime_discount','cta'=>'Get the latest deal','gold'=>false,
+  'values'=>['1 hour payouts','Up to 95 percent profit split','MT4, MT5, cTrader, Match Trader, DX Trade','Allows news & weekend holds (select accounts)','Coaching available','Daily transparency reports'],
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies (via CFD)'],'note'=>'The current BK graphic emphasizes forex and CFD products. Confirm whether a futures-specific program is currently offered before purchasing.','url'=>'https://proptraderedge.com/holaprime_discount','cta'=>'Get the latest deal','gold'=>false,
  ],
  [
   'name'=>'LUCID TRADING','mark'=>'L','logo'=>'lucid-transparent-cropped.png','category'=>'Futures Prop Firm','summary'=>'A one-step evaluation option centered on no activation or subscription fees, frequent payout access and a high initial profit share.','offer'=>'Use code EDGE for 50% off',
-  'values'=>['One-step LucidTest evaluation','100% profit share on the first $10K','90% profit share beyond that','Daily payout options','No activation fees','No monthly subscription fees'],
-  'markets'=>['Futures','Indices including ES, NQ and YM','Commodities including CL and GC','Treasuries','Currencies'],'note'=>'Payout access and account rules are subject to the provider’s current eligibility and consistency requirements.','url'=>'https://proptraderedge.com/lucid_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+  'values'=>['One-Step Evaluation (LucidTest)','100% Profit Share on First $10K','90% Profit Share Beyond That','Daily Payout Options','No Activation Fees','No Monthly Subscription Fees'],
+  'markets'=>['Futures','Indices (ES, NQ, YM)','Commodities (CL, GC)','Treasuries','Currencies'],'note'=>'Payout access and account rules are subject to the provider’s current eligibility and consistency requirements.','url'=>'https://proptraderedge.com/lucid_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
  [
   'name'=>'TRADEIFY','mark'=>'T','logo'=>'tradeify.svg','category'=>'Futures Prop Firm','summary'=>'A flexible funding route with multiple paths, including an instant option, and a pricing model designed to reduce recurring and activation costs.','offer'=>'Use code EDGE for 40% off',
-  'values'=>['Multiple funding paths','Instant funding option available','One-time pricing with no monthly fees','No activation fees','End-of-day drawdown highlighted as more forgiving','Up to 90% profit split','Trade up to 5 accounts'],
-  'markets'=>['Futures contracts','Indices including ES, NQ and YM','Commodities including CL and GC','Currencies','Agricultural contracts'],'note'=>'Product labels in promotional graphics can be simplified. Confirm the exact futures contracts, platform, drawdown and payout rules for the plan you select.','url'=>'https://proptraderedge.com/tradeify_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+  'values'=>['Multiple Funding Paths','Instant Funding Option Available','One-Time Pricing, No Monthly Fees','No Activation Fees','End-of-Day Drawdown (More Forgiving)','Up to 90% Profit Split','Trade Up to 5 Accounts'],
+  'markets'=>['Forex / CFDs','Indices (ES, NQ, YM)','Commodities (CL, GC)','Currencies','Agricultural'],'note'=>'Product labels in promotional graphics can be simplified. Confirm the exact futures contracts, platform, drawdown and payout rules for the plan you select.','url'=>'https://proptraderedge.com/tradeify_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
 ];
 require dirname(__DIR__) . '/includes/directory-page.php';

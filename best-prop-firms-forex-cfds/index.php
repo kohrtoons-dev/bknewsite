@@ -9,7 +9,7 @@ $cards = [
  [
   'name'=>'AXI SELECT','mark'=>'AX','logo'=>'axi-select-white.png','category'=>'Forex / CFD Funding Program','summary'=>'A live-account funding pathway emphasizing real capital, no challenge fees and a staged route toward larger allocation.',
   'values'=>['100% free — no registration or monthly fees','Real funds — no virtual capital or simulated trading','Get up to $1 million in funding','Up to 80% profit share','No trailing or daily drawdowns'],
-  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies where available'],'note'=>'Axi Select is structured differently from a conventional challenge firm. Country restrictions, deposits, stages and profit-share terms vary; verify current terms.','url'=>'https://proptraderedge.com/axiselect_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>true,
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies where available'],'note'=>'Axi Select is structured differently from a conventional challenge firm. Country restrictions, deposits, stages and profit-share terms vary; verify current terms.','url'=>'https://proptraderedge.com/axiselect_discount','cta'=>'Get Funded Now','gold'=>true,
  ],
  [
   'name'=>'HOLA PRIME','mark'=>'HP','logo'=>'hola-prime-transparent.png','category'=>'Forex / CFD Prop Firm','summary'=>'A forex and CFD funding route focused on fast payouts, broad platform choice, flexible holding rules on select accounts and coaching access.','offer'=>'Use code EDGE for 20% off',
