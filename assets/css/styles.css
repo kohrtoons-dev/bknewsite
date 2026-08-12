@@ -608,7 +608,7 @@
   .firm-summary{max-width:850px;margin-top:18px;color:#bfccda;font-size:18px;line-height:1.55}
   .firm-value-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(240px,.7fr);gap:44px;margin:30px 0 28px;padding:26px 0;border-top:1px solid rgba(22,142,219,.42);border-bottom:1px solid rgba(22,142,219,.25)}
   .firm-value-grid h3{margin-bottom:14px;color:#eef7ff;font-size:18px;letter-spacing:1px}
-  .firm-points,.firm-assets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 22px;padding:0;list-style:none;color:#dbe5f0;font-size:16px}
+  .firm-points,.firm-assets{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 22px;padding:0;list-style:none;color:#dbe5f0;font-size:18px}
   .firm-assets{grid-template-columns:1fr}
   .firm-points li,.firm-assets li{position:relative;padding-left:19px;line-height:1.35}
   .firm-points li::before,.firm-assets li::before{content:"+";position:absolute;left:0;color:#f0b429;font-weight:900}
