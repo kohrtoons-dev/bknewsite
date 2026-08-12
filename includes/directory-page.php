@@ -16,6 +16,10 @@ $backLabel = $backLabel ?? 'Back to directory';
 <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
 <meta content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8') ?>" name="description"/>
 <?php if ($canonical): ?><link href="<?= htmlspecialchars($canonical, ENT_QUOTES, 'UTF-8') ?>" rel="canonical"/><?php endif; ?>
+<link href="../favicon.ico" rel="icon" sizes="any"/>
+<link href="../images/favicon.png" rel="icon" type="image/png" sizes="512x512"/>
+<link href="../images/favicon-192.png" rel="icon" type="image/png" sizes="192x192"/>
+<link href="../images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <link href="../assets/css/styles.css" rel="stylesheet"/>

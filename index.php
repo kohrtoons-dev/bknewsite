@@ -6,6 +6,10 @@
 <!-- BK Traders Homepage v34 (modern dark) -->
 <title>BK Traders | Futures &amp; Forex Trading Indicators, Courses &amp; Daily Live Trading</title>
 <meta content="Trade smarter with Boris Schlossberg &amp; Kathy Lien. Premium futures and forex indicators, Strategy Coaching Club, daily live trading and free Daily Intel. Start free on Discord." name="description"/>
+<link href="favicon.ico" rel="icon" sizes="any"/>
+<link href="images/favicon.png" rel="icon" type="image/png" sizes="512x512"/>
+<link href="images/favicon-192.png" rel="icon" type="image/png" sizes="192x192"/>
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 
