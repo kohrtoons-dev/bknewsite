@@ -6,7 +6,7 @@
 
 <div class="education-group-heading intro-courses-heading">
 <h3>INTRO COURSES</h3>
-<p>Choose the market you want to learn first and build a practical trading foundation with Kathy or Boris.</p>
+<p>Choose the market you want to learn first and build a practical trading foundation.</p>
 </div>
 
 <div class="intro-course-grid">
@@ -21,6 +21,7 @@
 </div>
 <div class="body">
 <p>Still getting stopped out even when your setup looks perfect? Timing could be the missing piece. Kathy&rsquo;s Master the Clock course shows you the best times to trade Gold, Stock Futures, and Forex, plus the danger zones to avoid so you can focus on higher-quality opportunities.</p>
+<img class="market-timing-kathy" src="images/kathy-market-timing.png" alt="Kathy Lien pointing toward the Market Timing Course details">
 <span class="btn btn-gold intro-course-cta">Buy Now</span>
 </div>
 </a>

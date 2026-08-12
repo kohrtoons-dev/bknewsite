@@ -13,13 +13,13 @@ $cards = [
  ],
  [
   'name'=>'HOLA PRIME','mark'=>'HP','logo'=>'hola-prime-transparent.png','category'=>'Forex / CFD Prop Firm','summary'=>'A forex and CFD funding route focused on fast payouts, broad platform choice, flexible holding rules on select accounts and coaching access.','offer'=>'Use code EDGE for 20% off',
-  'values'=>['One-hour payouts highlighted','Up to 95% profit split','MT4, MT5, cTrader, Match-Trader and DXtrade highlighted','News trading and weekend holds on select accounts','Coaching available','Daily transparency reports'],
-  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD'],'note'=>'Platform availability and news or weekend holding permissions depend on the selected account. Verify the current rulebook before purchasing.','url'=>'https://proptraderedge.com/holaprime_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+  'values'=>['1 hour payouts','Up to 95 percent profit split','MT4, MT5, cTrader, Match Trader, DX Trade','Allows news & weekend holds (select accounts)','Coaching available','Daily transparency reports'],
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies (via CFD)'],'note'=>'Platform availability and news or weekend holding permissions depend on the selected account. Verify the current rulebook before purchasing.','url'=>'https://proptraderedge.com/holaprime_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
  [
   'name'=>'FUNDEDNEXT','mark'=>'FN','logo'=>'fundednext.svg','category'=>'Forex / CFD Prop Firm','summary'=>'A multi-market evaluation route emphasizing large simulated account sizes, high reward payouts and time-based payout assurances.','offer'=>'Use code PTEDGE for 5% off',
-  'values'=>['Up to 95% reward payout','Up to $300K in simulated accounts','24-hour reward payout or $1,000 extra highlighted','No time limits','Fee refunded on passed challenges','120% challenge fee refund highlighted on repeat purchase','Accepts U.S. clients highlighted in the BK graphic'],
-  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD','Futures programs where offered'],'note'=>'Programs, country access and refund conditions can differ by product and change over time. Confirm the exact account type and current eligibility.','url'=>'https://proptraderedge.com/fundednext_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+  'values'=>['Up to 95% Reward Payout','Up to $300K in Simulated Accounts','24 Hr Reward payout or receive $1,000 Extra','No Time Limits','Fee Refunded on Passed Challenges','120% Challenge Fee Refunded on repeat purchase','Accepts US Clients'],
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies (via CFD)','Futures'],'note'=>'Programs, country access and refund conditions can differ by product and change over time. Confirm the exact account type and current eligibility.','url'=>'https://proptraderedge.com/fundednext_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
 ];
 require dirname(__DIR__) . '/includes/directory-page.php';

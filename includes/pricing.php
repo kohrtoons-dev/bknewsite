@@ -72,7 +72,6 @@
 <span>Flexible</span><h4>MONTHLY</h4>
 <div class="pricing-term-price"><sup>$</sup><strong>149</strong><small>/ month</small></div>
 <a class="btn btn-outline" href="https://buy.stripe.com/aEUcPOf5o2Z3gKY4gD">Choose Monthly</a>
-<a class="pricing-paypal" href="https://go.bktraders.com/bktrading-tools-monthly">Prefer PayPal?</a>
 </div>
 <div class="pricing-term pricing-term-best">
 <div class="pricing-best-label">Best Deal</div>
@@ -80,7 +79,6 @@
 <div class="pricing-term-price"><sup>$</sup><strong>83.08</strong><small>/ month</small></div>
 <p>Billed annually</p>
 <a class="btn btn-gold" href="https://buy.stripe.com/aEUcPOf5o2Z3gKY4gD">Choose Annual</a>
-<a class="pricing-paypal" href="https://go.bktraders.com/bktrading-tools-annual-access">Prefer PayPal?</a>
 </div>
 </div>
 </article>
