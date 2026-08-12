@@ -3,7 +3,7 @@
 <div class="eyebrow">Explore BK Traders</div>
 <h2 class="sec">Everything You Need in One Place</h2>
 <div class="quick-grid">
-<a class="quick-box gold-box" href="#discord">
+<a class="quick-box gold-box" href="https://bktradertools.com/discord">
 <span class="q-icon" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M49.7 12.8A42 42 0 0 0 39.2 9.5l-1.3 2.7a38 38 0 0 0-11.8 0l-1.3-2.7a42 42 0 0 0-10.5 3.3C7.7 22.7 5.9 32.4 6.8 42a42 42 0 0 0 12.9 6.5l3.1-4.2a27 27 0 0 1-4.8-2.4l1.2-.9c9.2 4.2 19.2 4.2 28.3 0l1.2.9a29 29 0 0 1-4.8 2.4l3.1 4.2A42 42 0 0 0 59.9 42c1.1-11.1-1.9-20.7-10.2-29.2ZM24 37.7c-3 0-5.4-2.7-5.4-6s2.4-6 5.4-6 5.4 2.7 5.3 6c0 3.3-2.3 6-5.3 6Zm18 0c-3 0-5.4-2.7-5.4-6s2.4-6 5.4-6 5.4 2.7 5.3 6c0 3.3-2.3 6-5.3 6Z"/></svg></span>
 <strong>Join Free Discord</strong>
 <span class="q-sub">Connect with our global trading community</span>

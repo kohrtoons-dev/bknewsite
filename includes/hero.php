@@ -5,8 +5,8 @@
 <p class="hero-promise">Learn to earn from anywhere, for life.</p>
 <p class="sub">Whether you're an expert or beginner in forex and futures, Boris Schlossberg and Kathy Lien bring 20+ years of Wall Street experience to take your trading to the next level.</p>
 <div class="hero-ctas">
-<a class="btn btn-gold" href="#discord">Join Our Free Discord<img alt="" aria-hidden="true" class="btn-icon btn-icon-discord" src="images/discord.png"/></a>
-<a class="btn btn-ghost" href="https://bktradertools.com/intel">Live Daily Intel</a>
+<a class="btn btn-gold" href="https://bktradertools.com/discord">Join Our Free Discord<img alt="" aria-hidden="true" class="btn-icon btn-icon-discord" src="images/discord.png"/></a>
+<span class="free-corner-wrap"><a class="btn btn-ghost" href="https://bktradertools.com/intel">Live Daily Intel</a><span class="free-corner-flag">FREE</span></span>
 </div>
 <div class="hero-stats">
 <div class="hero-stat"><span aria-hidden="true" class="stat-icon stat-calendar"></span><span class="stat-copy"><strong>20+</strong><small>Years Trading</small></span></div>

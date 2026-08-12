@@ -7,19 +7,19 @@ $pageHeading = 'Futures Prop Firms';
 $pageIntro = 'Compare the funding paths, fee structure, drawdown model, account limits and payout highlights shown in BK Traders current futures-firm graphics.';
 $cards = [
  [
-  'name'=>'APEX TRADER FUNDING','mark'=>'A','logo'=>'apex.svg','category'=>'Futures Prop Firm','summary'=>'A one-step futures evaluation route emphasizing low evaluation costs, a strong initial profit share and multi-account access.',
+  'name'=>'APEX TRADER FUNDING','mark'=>'A','logo'=>'apex.svg','category'=>'Futures Prop Firm','summary'=>'A one-step futures evaluation route emphasizing low evaluation costs, a strong initial profit share and multi-account access.','offer'=>'Use code BKSAVE for 80% off',
   'values'=>['One-step evaluation','Low evaluation fees','100% profit share on the first $25K','90% profit share beyond that','Trade up to 20 accounts'],
-  'markets'=>['Futures','Indices','Commodities','Cryptocurrencies','Currencies'],'note'=>'Account rules, eligible contracts and payout requirements vary by plan. Verify current terms before purchasing an evaluation.','url'=>'https://proptraderedge.com/apextrader_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>true,
+  'markets'=>['Futures','Indices','Commodities','Cryptocurrencies','Currencies'],'note'=>'Account rules, eligible contracts and payout requirements vary by plan. Verify current terms before purchasing an evaluation.','url'=>'https://proptraderedge.com/apextrader_discount','cta'=>'Get the latest deal with Code BKSAVE','gold'=>true,
  ],
  [
-  'name'=>'FUNDEDNEXT','mark'=>'FN','logo'=>'fundednext.svg','category'=>'Multi-Market Prop Firm','summary'=>'A multi-market evaluation route emphasizing large simulated account sizes, high reward payouts and time-based payout assurances.','offer'=>'Use code PTEDGE for 10% off',
+  'name'=>'FUNDEDNEXT','mark'=>'FN','logo'=>'fundednext.svg','category'=>'Multi-Market Prop Firm','summary'=>'A multi-market evaluation route emphasizing large simulated account sizes, high reward payouts and time-based payout assurances.','offer'=>'Use code PTEDGE for 47% off',
   'values'=>['Up to 95% reward payout','Up to $300K in simulated accounts','24-hour reward payout or $1,000 extra highlighted','No time limits','Fee refunded on passed challenges','120% challenge fee refund highlighted on repeat purchase','Accepts U.S. clients highlighted in the BK graphic'],
-  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD','Futures programs where offered'],'note'=>'Select the futures-specific program where applicable. Programs, country access and refund conditions can differ by product.','url'=>'https://proptraderedge.com/fundednext_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD','Futures programs where offered'],'note'=>'Select the futures-specific program where applicable. Programs, country access and refund conditions can differ by product.','url'=>'https://proptraderedge.com/fundednext_discount','cta'=>'Get the latest deal with Code PTEDGE','gold'=>false,
  ],
  [
-  'name'=>'HOLA PRIME','mark'=>'HP','logo'=>'hola-prime-transparent.png','category'=>'Multi-Market Prop Firm','summary'=>'A funding route focused on fast payouts, broad platform choice, flexible holding rules on select accounts and coaching access.','offer'=>'Use code EDGE for 30% off',
+  'name'=>'HOLA PRIME','mark'=>'HP','logo'=>'hola-prime-transparent.png','category'=>'Multi-Market Prop Firm','summary'=>'A funding route focused on fast payouts, broad platform choice, flexible holding rules on select accounts and coaching access.',
   'values'=>['One-hour payouts highlighted','Up to 95% profit split','MT4, MT5, cTrader, Match-Trader and DXtrade highlighted','News trading and weekend holds on select accounts','Coaching available','Daily transparency reports'],
-  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD'],'note'=>'The current BK graphic emphasizes forex and CFD products. Confirm whether a futures-specific program is currently offered before purchasing.','url'=>'https://proptraderedge.com/holaprime_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies via CFD'],'note'=>'The current BK graphic emphasizes forex and CFD products. Confirm whether a futures-specific program is currently offered before purchasing.','url'=>'https://proptraderedge.com/holaprime_discount','cta'=>'Get the latest deal','gold'=>false,
  ],
  [
   'name'=>'LUCID TRADING','mark'=>'L','logo'=>'lucid-transparent-cropped.png','category'=>'Futures Prop Firm','summary'=>'A one-step evaluation option centered on no activation or subscription fees, frequent payout access and a high initial profit share.','offer'=>'Use code EDGE for 50% off',

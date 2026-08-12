@@ -24,7 +24,7 @@
 <div>
 <h4>Follow</h4>
 <a href="https://www.youtube.com/@BKForex">YouTube</a>
-<a href="#">Discord</a>
+<a href="https://bktradertools.com/discord">Discord</a>
 </div>
 </div>
 <div class="disclaimer">
