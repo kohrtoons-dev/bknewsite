@@ -34,7 +34,7 @@ $cards = [
  [
   'name'=>'TAKE PROFIT TRADER','mark'=>'TPT','logo'=>'take-profit-trader.svg','category'=>'Futures Prop Firm','summary'=>'Simple transparent evaluation process that streamlines the journey from evaluation to payouts, allowing traders to withdraw from day one of their PRO account.','offer'=>'Use code EDGE for 40% off and no activation fee for life',
   'values'=>['Get paid on day one of your pro account','No max withdrawal cap','No minimum profitable days','Daily payouts','No consistency rules in funded','No daily loss limit'],
-  'markets'=>['Futures','Indices','Commodities','Currencies'],'note'=>'Program rules, eligibility and promotional terms can change. Confirm the current evaluation, PRO account and payout terms before purchasing.','url'=>'https://takeprofittrader.com/','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+  'markets'=>['Futures','Indices','Commodities','Currencies'],'note'=>'Program rules, eligibility and promotional terms can change. Confirm the current evaluation, PRO account and payout terms before purchasing.','url'=>'https://www.proptraderedge.com/takeprofittrader_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
 ];
 require dirname(__DIR__) . '/includes/directory-page.php';
