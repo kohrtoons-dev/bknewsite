@@ -31,5 +31,10 @@ $cards = [
   'values'=>['Multiple Funding Paths','Instant Funding Option Available','One-Time Pricing, No Monthly Fees','No Activation Fees','End-of-Day Drawdown (More Forgiving)','Up to 90% Profit Split','Trade Up to 5 Accounts'],
   'markets'=>['Forex / CFDs','Indices (ES, NQ, YM)','Commodities (CL, GC)','Currencies','Agricultural'],'note'=>'Product labels in promotional graphics can be simplified. Confirm the exact futures contracts, platform, drawdown and payout rules for the plan you select.','url'=>'https://proptraderedge.com/tradeify_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
+ [
+  'name'=>'TAKE PROFIT TRADER','mark'=>'TPT','logo'=>'take-profit-trader.svg','category'=>'Futures Prop Firm','summary'=>'Simple transparent evaluation process that streamlines the journey from evaluation to payouts, allowing traders to withdraw from day one of their PRO account.','offer'=>'Use code EDGE for 40% off and no activation fee for life',
+  'values'=>['Get paid on day one of your pro account','No max withdrawal cap','No minimum profitable days','Daily payouts','No consistency rules in funded','No daily loss limit'],
+  'markets'=>['Futures','Indices','Commodities','Currencies'],'note'=>'Program rules, eligibility and promotional terms can change. Confirm the current evaluation, PRO account and payout terms before purchasing.','url'=>'https://takeprofittrader.com/','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+ ],
 ];
 require dirname(__DIR__) . '/includes/directory-page.php';

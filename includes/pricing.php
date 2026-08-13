@@ -12,22 +12,21 @@
 <div class="pricing-primary-grid">
 <article class="pricing-card pricing-card-live">
 <div class="pricing-card-top">
-<span class="pricing-kicker">Trade Alerts + Live Trading</span>
+<span class="pricing-kicker">Premium Indicators + Tools</span>
 <span class="pricing-plan-icon" aria-hidden="true">LIVE</span>
 </div>
-<h3>ACTIVE TRADER</h3>
+<h3>INDICATORS</h3>
 <p class="pricing-description">Daily access to Kathy and Boris, actionable trade ideas, premium indicators and the full BK trading community.</p>
 <div class="pricing-price"><sup>$</sup><strong>149</strong><span>per month</span></div>
 <ul class="pricing-features">
-<li>Kathy's realtime trade ideas</li>
-<li>Boris' futures and indices trading room</li>
-<li>Premium ZIP and BFF indicators</li>
-<li>Kathy's fundamental trading tools</li>
-<li>Daily live streams</li>
-<li>Trading community and pro videos</li>
-<li>Direct line to Boris and Kathy</li>
+<li>Members only ZIP indicator</li>
+<li>Members only Dots indicators</li>
+<li>ZIP Pro Training Videos</li>
+<li>Dots Pro Training Videos</li>
+<li>Boris futures and indices trading room</li>
+<li>Kathy's macro heatmap</li>
 </ul>
-<a class="btn btn-gold" href="https://go.bktraders.com/trade-signals-monthly">Start Active Trader</a>
+<a class="btn btn-gold" href="https://www.fluxcharts.com/creator/bktraders">Start Active Trader</a>
 <small>Monthly recurring subscription</small>
 </article>
 
@@ -40,49 +39,48 @@
 <p class="pricing-description">Three months of live coaching. Learn a fresh strategy each month and how to apply it to your account and prop-firm challenges.</p>
 <div class="pricing-price"><sup>$</sup><strong>397</strong><span>per 3 months</span></div>
 <ul class="pricing-features">
+<li>Kathy's realtime forex trade ideas</li>
 <li>Three months of live strategy coaching</li>
-<li>Boris' futures and indices trading room</li>
-<li>Members-only indicators</li>
-<li>Daily live streams</li>
+<li>Learn a new strategy every month</li>
 <li>Pro trading videos</li>
+<li>Private members only discord</li>
 <li>Direct line to Boris and Kathy</li>
 </ul>
-<a class="btn btn-gold" href="https://go.bktraders.com/pass-the-prop-course">Join the Coaching Club</a>
+<a class="btn btn-gold" href="https://go.bktraders.com/access-strategy-club-v1">Join the Coaching Club</a>
 <small>Billed every three months.</small>
 </article>
 </div>
 
 <article class="pricing-tools-panel" id="all-strategy-tools">
 <div class="pricing-tools-copy">
-<span class="pricing-kicker">Complete Indicator Suite</span>
-<h3>ALL STRATEGY TOOLS</h3>
-<p>Unlimited access to BK's premium indicators, fundamental tools, live streams, trading community and execution tools.</p>
+<span class="pricing-kicker">Premium Indicators + Tools</span>
+<h3>INDICATORS BEST DEAL</h3>
+<p>Daily access to Kathy and Boris, actionable trade ideas, premium indicators and the full BK trading community.</p>
 <ul class="pricing-tools-features">
-<li>Premium indicators</li>
-<li>Kathy's fundamental tools</li>
-<li>Daily live streams</li>
-<li>Trading community access</li>
-<li>Pro trading tools and videos</li>
-<li>Direct line to Boris and Kathy</li>
-<li>Profit Shield Trade Manager</li>
+<li>Members only ZIP indicator</li>
+<li>Members only Dots indicators</li>
+<li>ZIP Pro Training Videos</li>
+<li>Dots Pro Training Videos</li>
+<li>Boris futures and indices trading room</li>
+<li>Kathy's macro heatmap</li>
 </ul>
 </div>
 <div class="pricing-term-grid">
 <div class="pricing-term">
 <span>Flexible</span><h4>MONTHLY</h4>
 <div class="pricing-term-price"><sup>$</sup><strong>149</strong><small>/ month</small></div>
-<a class="btn btn-outline" href="https://buy.stripe.com/aEUcPOf5o2Z3gKY4gD">Choose Monthly</a>
+<a class="btn btn-outline" href="https://www.fluxcharts.com/creator/bktraders">Choose Monthly</a>
 </div>
 <div class="pricing-term pricing-term-best">
 <div class="pricing-best-label">Best Deal</div>
 <span>Save 44%</span><h4>ANNUAL</h4>
 <div class="pricing-term-price"><sup>$</sup><strong>83.08</strong><small>/ month</small></div>
 <p>Billed annually</p>
-<a class="btn btn-gold" href="https://buy.stripe.com/aEUcPOf5o2Z3gKY4gD">Choose Annual</a>
+<a class="btn btn-gold" href="https://www.fluxcharts.com/creator/bktraders">Choose Annual</a>
 </div>
 </div>
 </article>
 
-<p class="pricing-footnote">Prices and included benefits reflect the current BK Traders offers and may change. Review the complete billing and access terms at checkout.</p>
+<p class="pricing-footnote">All sales are final. Please review complete billing and access terms at checkout.</p>
 </div>
 </section>

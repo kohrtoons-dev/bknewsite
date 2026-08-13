@@ -21,5 +21,10 @@ $cards = [
   'values'=>['Up to 95% Reward Payout','Up to $300K in Simulated Accounts','24 Hr Reward payout or receive $1,000 Extra','No Time Limits','Fee Refunded on Passed Challenges','120% Challenge Fee Refunded on repeat purchase','Accepts US Clients'],
   'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies (via CFD)','Futures'],'note'=>'Programs, country access and refund conditions can differ by product and change over time. Confirm the exact account type and current eligibility.','url'=>'https://proptraderedge.com/fundednext_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
+ [
+  'name'=>'IC FUNDED','mark'=>'IC','logo'=>'ic-funded.png','category'=>'Forex / CFD Prop Firm','summary'=>'Global markets with institutional grade technology, trusted by millions of traders worldwide.','offer'=>'Get 30% off with code EDGE',
+  'values'=>['Backed by one of the largest CFD brokers in the world','Highest CFD funding options, get up to $500K','Tight spreads','No profit cap','Up to 80% profit share'],
+  'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies (via CFD)'],'note'=>'IC Funded does not accept customers from certain restricted jurisdictions, including the United States. Confirm current eligibility and program terms before purchasing.','url'=>'https://proptraderedge.com/icfunded_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+ ],
 ];
 require dirname(__DIR__) . '/includes/directory-page.php';
