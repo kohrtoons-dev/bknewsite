@@ -22,6 +22,11 @@ $cards = [
   'markets'=>['Forex / CFDs','Indices','Commodities','Cryptocurrencies (via CFD)'],'note'=>'The current BK graphic emphasizes forex and CFD products. Confirm whether a futures-specific program is currently offered before purchasing.','url'=>'https://proptraderedge.com/holaprime_discount','cta'=>'Get the latest deal','gold'=>false,
  ],
  [
+  'name'=>'TAKE PROFIT TRADER','mark'=>'TPT','logo'=>'take-profit-trader.svg','category'=>'Futures Prop Firm','summary'=>'Simple transparent evaluation process that streamlines the journey from evaluation to payouts, allowing traders to withdraw from day one of their PRO account.','offer'=>'Use code EDGE for 40% off and no activation fee for life',
+  'values'=>['Get paid on day one of your pro account','No max withdrawal cap','No minimum profitable days','Daily payouts','No consistency rules in funded','No daily loss limit'],
+  'markets'=>['Futures','Indices','Commodities','Currencies'],'note'=>'Program rules, eligibility and promotional terms can change. Confirm the current evaluation, PRO account and payout terms before purchasing.','url'=>'https://www.proptraderedge.com/takeprofittrader_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
+ ],
+ [
   'name'=>'LUCID TRADING','mark'=>'L','logo'=>'lucid-transparent-cropped.png','category'=>'Futures Prop Firm','summary'=>'A one-step evaluation option centered on no activation or subscription fees, frequent payout access and a high initial profit share.','offer'=>'Use code EDGE for 50% off',
   'values'=>['One-Step Evaluation (LucidTest)','100% Profit Share on First $10K','90% Profit Share Beyond That','Daily Payout Options','No Activation Fees','No Monthly Subscription Fees'],
   'markets'=>['Futures','Indices (ES, NQ, YM)','Commodities (CL, GC)','Treasuries','Currencies'],'note'=>'Payout access and account rules are subject to the provider’s current eligibility and consistency requirements.','url'=>'https://proptraderedge.com/lucid_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
@@ -30,11 +35,6 @@ $cards = [
   'name'=>'TRADEIFY','mark'=>'T','logo'=>'tradeify.svg','category'=>'Futures Prop Firm','summary'=>'A flexible funding route with multiple paths, including an instant option, and a pricing model designed to reduce recurring and activation costs.','offer'=>'Use code EDGE for 40% off',
   'values'=>['Multiple Funding Paths','Instant Funding Option Available','One-Time Pricing, No Monthly Fees','No Activation Fees','End-of-Day Drawdown (More Forgiving)','Up to 90% Profit Split','Trade Up to 5 Accounts'],
   'markets'=>['Forex / CFDs','Indices (ES, NQ, YM)','Commodities (CL, GC)','Currencies','Agricultural'],'note'=>'Product labels in promotional graphics can be simplified. Confirm the exact futures contracts, platform, drawdown and payout rules for the plan you select.','url'=>'https://proptraderedge.com/tradeify_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
- ],
- [
-  'name'=>'TAKE PROFIT TRADER','mark'=>'TPT','logo'=>'take-profit-trader.svg','category'=>'Futures Prop Firm','summary'=>'Simple transparent evaluation process that streamlines the journey from evaluation to payouts, allowing traders to withdraw from day one of their PRO account.','offer'=>'Use code EDGE for 40% off and no activation fee for life',
-  'values'=>['Get paid on day one of your pro account','No max withdrawal cap','No minimum profitable days','Daily payouts','No consistency rules in funded','No daily loss limit'],
-  'markets'=>['Futures','Indices','Commodities','Currencies'],'note'=>'Program rules, eligibility and promotional terms can change. Confirm the current evaluation, PRO account and payout terms before purchasing.','url'=>'https://www.proptraderedge.com/takeprofittrader_discount','cta'=>'Get the latest deal with Code EDGE','gold'=>false,
  ],
 ];
 require dirname(__DIR__) . '/includes/directory-page.php';
