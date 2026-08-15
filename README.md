@@ -34,8 +34,11 @@ enabled on cPanel PHP installations.
 
 The generated cache and lock files are intentionally ignored by Git.
 
-The cron integration updates the macro-headline portion of Daily Intel. Market
-quotes are supplied separately by TradingView's free iframe-based Ticker Tape,
-which refreshes itself in the browser and may show delayed data where required by
-the relevant exchange. The iframe version is used for compatibility with local
-development servers and cPanel hosting.
+The market quote updater writes `storage/cache/market-quotes.json` from Yahoo's
+delayed chart feed. Run it every five minutes alongside the headline updater:
+
+`/usr/local/bin/php -q /home/bktraders/newsite.bktraders.com/scripts/update-market-quotes.php`
+
+`api/market-quotes.php` exposes the last successful quote cache plus the FED,
+FED SPEECH and ECB headline cache as read-only JSON for the BK OBS container.
+The protected `storage` directory remains inaccessible from the web.
