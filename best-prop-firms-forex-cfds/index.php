@@ -1,6 +1,7 @@
 <?php
 $pageTitle = 'Best Forex & CFD Prop Firms | BK Traders';
-$pageDescription = 'Compare BK Traders highlighted value propositions for Axi Select, Hola Prime and FundedNext forex and CFD programs.';
+$pageDescription = 'Compare forex and CFD prop firms including Axi Select, Hola Prime, FundedNext and IC Funded, with funding, payout and platform highlights.';
+$pageKeywords = 'best forex prop firms, best CFD prop firms, Axi Select, Hola Prime, FundedNext, IC Funded, forex funding programs';
 $canonical = 'https://www.bktraders.com/best-prop-firms-forex-cfds/';
 $pageEyebrow = 'Best Firms · Forex & CFDs';
 $pageHeading = 'Forex & CFD Prop Firms';

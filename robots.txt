@@ -1,0 +1,31 @@
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /scripts/
+Disallow: /storage/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /scripts/
+Disallow: /storage/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /scripts/
+Disallow: /storage/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /scripts/
+Disallow: /storage/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /scripts/
+Disallow: /storage/
+
+User-agent: *
+Allow: /
+Disallow: /scripts/
+Disallow: /storage/
+
+Sitemap: https://www.bktraders.com/sitemap.xml

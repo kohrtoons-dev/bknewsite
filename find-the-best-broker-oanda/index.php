@@ -1,6 +1,7 @@
 <?php
 $pageTitle = 'Best Brokers for U.S. Traders | BK Traders';
-$pageDescription = 'Compare BK Traders highlighted broker options for eligible U.S. forex traders.';
+$pageDescription = 'Review OANDA as a forex broker option for eligible U.S. traders, including regulatory oversight, available markets and key account considerations.';
+$pageKeywords = 'best forex broker for US traders, OANDA, United States forex broker, CFTC regulated forex broker, NFA forex broker, BK Traders';
 $canonical = 'https://www.bktraders.com/find-the-best-broker-oanda/';
 $pageEyebrow = 'United States · Broker Guide';
 $pageHeading = 'Brokers for U.S. Traders';

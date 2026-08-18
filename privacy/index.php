@@ -1,6 +1,7 @@
 <?php
 $legalTitle = 'Privacy';
 $legalDescription = 'BK Traders privacy policy and information collection practices.';
+$legalKeywords = 'BK Traders privacy policy, website privacy, personal information, data collection';
 $legalCanonical = 'https://www.bktraders.com/privacy/';
 $legalContent = <<<'HTML'
 <p>BKForex.com is serious about protecting your online privacy. This Privacy Statement explains our views and practices concerning privacy and how they may pertain to you as a user of our website.</p>

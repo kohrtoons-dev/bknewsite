@@ -5,6 +5,8 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Find the Best Broker &amp; Prop Firm | BK Traders</title>
 <meta content="Choose a broker by region or compare futures and Forex/CFD prop firms selected by BK Traders." name="description"/>
+<meta content="best forex brokers, best CFD brokers, futures prop firms, forex prop firms, United States forex broker, international CFD broker, BK Traders" name="keywords"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
 <link href="https://www.bktraders.com/find-the-best-broker/" rel="canonical"/>
 <link href="../favicon.ico" rel="icon" sizes="any"/>
 <link href="../images/favicon.png" rel="icon" type="image/png" sizes="512x512"/>
@@ -13,6 +15,7 @@
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <link href="../assets/css/styles.css" rel="stylesheet"/>
+<?php require dirname(__DIR__) . '/includes/analytics.php'; ?>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>

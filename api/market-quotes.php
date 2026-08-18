@@ -25,13 +25,34 @@ if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
     respond(array('status' => 'error', 'message' => 'Method not allowed.'), 405);
 }
 
-$cacheDirectory = dirname(__DIR__) . '/storage/cache';
+$cacheCandidates = array(
+    dirname(__DIR__) . '/storage/cache',
+    dirname(dirname(__DIR__)) . '/newsite.bktraders.com/storage/cache',
+);
+$cacheDirectory = null;
+$quoteCache = null;
+$newestQuoteUpdate = -1;
+foreach ($cacheCandidates as $candidate) {
+    $candidateCache = readJsonFile($candidate . '/market-quotes.json');
+    if ($candidateCache !== null && isset($candidateCache['quotes']) && is_array($candidateCache['quotes'])) {
+        $candidateUpdate = isset($candidateCache['updated_unix']) ? (int) $candidateCache['updated_unix'] : 0;
+        if ($quoteCache === null || $candidateUpdate > $newestQuoteUpdate) {
+            $quoteCache = $candidateCache;
+            $newestQuoteUpdate = $candidateUpdate;
+            $cacheDirectory = $candidate;
+        }
+    }
+}
+
+if ($cacheDirectory === null || $quoteCache === null) {
+    respond(array('status' => 'error', 'message' => 'Market quote cache is unavailable.'), 503);
+}
+
 $quoteCacheFile = $cacheDirectory . '/market-quotes.json';
 $newsCacheFile = $cacheDirectory . '/ticker.json';
 $allowedSymbols = array('ES=F', 'NQ=F', 'GC=F', 'CL=F', 'EURUSD=X', 'JPY=X');
 
-$quoteCache = readJsonFile($quoteCacheFile);
-if ($quoteCache === null || !isset($quoteCache['quotes']) || !is_array($quoteCache['quotes'])) {
+if (!isset($quoteCache['quotes']) || !is_array($quoteCache['quotes'])) {
     respond(array('status' => 'error', 'message' => 'Market quote cache is unavailable.'), 503);
 }
 
@@ -90,8 +111,10 @@ respond(array(
     'provider' => isset($quoteCache['provider']) ? (string) $quoteCache['provider'] : 'Yahoo Finance',
     'delayed' => true,
     'updated_at' => isset($quoteCache['updated_at']) ? (string) $quoteCache['updated_at'] : null,
-    'updated_unix' => isset($quoteCache['updated_unix']) ? (int) $quoteCache['updated_unix'] : null,
-    'stale' => filemtime($quoteCacheFile) < time() - 900,
+    'updated_unix' => $newestQuoteUpdate > 0 ? $newestQuoteUpdate : null,
+    'stale' => $newestQuoteUpdate <= 0 || $newestQuoteUpdate < time() - 900,
+    'news_updated_at' => $newsCache !== null && isset($newsCache['updated_at']) ? (string) $newsCache['updated_at'] : null,
+    'news_stale' => $newsCache === null || !isset($newsCache['updated_unix']) || (int) $newsCache['updated_unix'] < time() - 1800,
     'quotes' => $quotes,
     'news' => $news,
 ));

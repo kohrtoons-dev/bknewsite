@@ -17,6 +17,8 @@
 </div>
 <div>
 <h4>Support</h4>
+<span class="footer-email" id="footer-email" aria-label="Contact BK Traders by email"></span>
+<noscript><span class="footer-email">contact [at] bktraders [dot] com</span></noscript>
 <a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>risk-disclosure/">Risk Disclosure</a>
 <a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>privacy/">Privacy</a>
 <a href="<?= htmlspecialchars($siteBase, ENT_QUOTES, 'UTF-8') ?>terms-of-service/">Terms of Service</a>

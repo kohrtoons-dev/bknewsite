@@ -1,6 +1,7 @@
 <?php
 $pageTitle = 'Best International CFD Broker: Axi | BK Traders';
 $pageDescription = 'Review BK Traders’ highlighted Axi and Axi Select value proposition for eligible international forex and CFD traders.';
+$pageKeywords = 'best international CFD broker, Axi broker, Axi Select, forex broker, CFD trading, international traders, BK Traders';
 $canonical = 'https://www.bktraders.com/best-cfd-broker/';
 $pageEyebrow = 'International · CFD Broker';
 $pageHeading = 'Axi for International Traders';

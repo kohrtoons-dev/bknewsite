@@ -1,0 +1,20 @@
+# BK Traders
+
+BK Traders provides futures and forex trading education, indicators, courses, broker and prop-firm comparisons, and weekday live market analysis from Boris Schlossberg and Kathy Lien.
+
+## Primary pages
+
+- [Homepage](https://www.bktraders.com/): Trading education, indicators, courses, mentors, live streams and membership options.
+- [Broker and prop-firm directory](https://www.bktraders.com/find-the-best-broker/): Choose broker guides by country or compare futures and Forex/CFD prop firms.
+- [United States broker guide](https://www.bktraders.com/find-the-best-broker-oanda/): OANDA information for eligible U.S. forex traders.
+- [International CFD broker guide](https://www.bktraders.com/best-cfd-broker/): Axi and Axi Select information for eligible international traders.
+- [Futures prop firms](https://www.bktraders.com/best-prop-firms/): Comparison of featured futures funding programs.
+- [Forex and CFD prop firms](https://www.bktraders.com/best-prop-firms-forex-cfds/): Comparison of featured Forex/CFD funding programs.
+- [Risk disclosure](https://www.bktraders.com/risk-disclosure/): Important trading-risk information.
+
+## Important context
+
+- Content is educational and informational, not individualized financial advice.
+- Trading, CFDs, futures and prop-firm evaluations involve substantial risk.
+- Promotions, eligibility, prices and provider rules can change; verify current terms with each provider.
+- Affiliate links may compensate BK Traders without changing the visitor's price.

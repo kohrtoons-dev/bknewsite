@@ -1,6 +1,7 @@
 <?php
 $legalTitle = 'Risk Disclosure';
 $legalDescription = 'BK Traders risk disclosure for futures, CFDs, forex, stocks and options trading.';
+$legalKeywords = 'trading risk disclosure, futures trading risk, forex trading risk, CFD trading risk, BK Traders';
 $legalCanonical = 'https://www.bktraders.com/risk-disclosure/';
 $legalContent = <<<'HTML'
 <h2>Risk Disclosure</h2>

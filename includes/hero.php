@@ -1,4 +1,5 @@
 <section class="hero" id="home">
+<h1 class="visually-hidden">Master the Markets with BK Traders</h1>
 <div class="wrap hero-grid">
 <p class="hero-kicker">Education <span>·</span> Insight <span>·</span> Freedom</p>
 <div class="hero-content">

@@ -1,6 +1,7 @@
 <?php
 $pageTitle = 'Best Futures Prop Firms | BK Traders';
-$pageDescription = 'Compare BK Traders highlighted value propositions for Apex Trader Funding, FundedNext, Hola Prime, Lucid Trading and Tradeify.';
+$pageDescription = 'Compare futures prop firms including Apex Trader Funding, FundedNext, Hola Prime, Take Profit Trader, Lucid Trading and Tradeify with BK Traders.';
+$pageKeywords = 'best futures prop firms, Apex Trader Funding, FundedNext, Hola Prime, Take Profit Trader, Lucid Trading, Tradeify, futures funding programs';
 $canonical = 'https://www.bktraders.com/best-prop-firms/';
 $pageEyebrow = 'Best Firms · Futures';
 $pageHeading = 'Futures Prop Firms';

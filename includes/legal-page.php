@@ -2,6 +2,7 @@
 $siteBase = '../';
 $legalTitle = $legalTitle ?? 'Legal';
 $legalDescription = $legalDescription ?? 'BK Traders legal information.';
+$legalKeywords = $legalKeywords ?? 'BK Traders, trading terms, trading risk disclosure, privacy policy';
 $legalCanonical = $legalCanonical ?? '';
 $legalContent = $legalContent ?? '';
 ?>
@@ -12,6 +13,8 @@ $legalContent = $legalContent ?? '';
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title><?= htmlspecialchars($legalTitle, ENT_QUOTES, 'UTF-8') ?> | BK Traders</title>
 <meta content="<?= htmlspecialchars($legalDescription, ENT_QUOTES, 'UTF-8') ?>" name="description"/>
+<meta content="<?= htmlspecialchars($legalKeywords, ENT_QUOTES, 'UTF-8') ?>" name="keywords"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
 <?php if ($legalCanonical): ?><link href="<?= htmlspecialchars($legalCanonical, ENT_QUOTES, 'UTF-8') ?>" rel="canonical"/><?php endif; ?>
 <link href="../favicon.ico" rel="icon" sizes="any"/>
 <link href="../images/favicon.png" rel="icon" type="image/png" sizes="512x512"/>
@@ -20,6 +23,7 @@ $legalContent = $legalContent ?? '';
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <link href="../assets/css/styles.css" rel="stylesheet"/>
+<?php require __DIR__ . '/analytics.php'; ?>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>

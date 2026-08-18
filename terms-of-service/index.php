@@ -1,6 +1,7 @@
 <?php
 $legalTitle = 'Terms of Service';
 $legalDescription = 'BK Traders terms of service, subscription terms and website use rules.';
+$legalKeywords = 'BK Traders terms of service, subscription terms, website terms, trading education terms';
 $legalCanonical = 'https://www.bktraders.com/terms-of-service/';
 $legalContent = <<<'HTML'
 <h2>Education, Not Recommendations</h2>

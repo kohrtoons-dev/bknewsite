@@ -66,3 +66,10 @@ if('IntersectionObserver' in window){
 }else{
   document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')});
 }
+
+(function(){
+  var email = document.getElementById('footer-email');
+  if(!email){ return; }
+  var characters = [99,111,110,116,97,99,116,64,98,107,116,114,97,100,101,114,115,46,99,111,109];
+  email.textContent = characters.map(function(code){ return String.fromCharCode(code); }).join('');
+})();

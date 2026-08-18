@@ -2,6 +2,7 @@
 $siteBase = '../';
 $pageTitle = $pageTitle ?? 'Broker & Prop Firm Directory | BK Traders';
 $pageDescription = $pageDescription ?? '';
+$pageKeywords = $pageKeywords ?? 'BK Traders, forex brokers, CFD brokers, futures prop firms, forex prop firms, trading education';
 $canonical = $canonical ?? '';
 $pageEyebrow = $pageEyebrow ?? 'BK Traders Directory';
 $pageIntro = $pageIntro ?? '';
@@ -15,6 +16,8 @@ $backLabel = $backLabel ?? 'Back to directory';
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
 <meta content="<?= htmlspecialchars($pageDescription, ENT_QUOTES, 'UTF-8') ?>" name="description"/>
+<meta content="<?= htmlspecialchars($pageKeywords, ENT_QUOTES, 'UTF-8') ?>" name="keywords"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
 <?php if ($canonical): ?><link href="<?= htmlspecialchars($canonical, ENT_QUOTES, 'UTF-8') ?>" rel="canonical"/><?php endif; ?>
 <link href="../favicon.ico" rel="icon" sizes="any"/>
 <link href="../images/favicon.png" rel="icon" type="image/png" sizes="512x512"/>
@@ -23,6 +26,7 @@ $backLabel = $backLabel ?? 'Back to directory';
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 <link href="../assets/css/styles.css" rel="stylesheet"/>
+<?php require __DIR__ . '/analytics.php'; ?>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>

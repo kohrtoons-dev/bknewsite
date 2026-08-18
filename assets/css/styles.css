@@ -24,6 +24,7 @@
   .wrap{max-width:1320px;margin:0 auto;padding:0 28px}
   .skip-link{position:fixed;top:10px;left:10px;z-index:1000;background:#fff;color:#070b14;padding:10px 16px;border-radius:8px;font-weight:700;transform:translateY(-150%);transition:transform .2s ease}
   .skip-link:focus{transform:translateY(0)}
+  .visually-hidden{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
   main{display:block}
 
   /* ============ TOP NAV ============ */
@@ -740,6 +741,7 @@
   .foot-grid{display:flex;justify-content:space-between;gap:32px;flex-wrap:wrap;margin-bottom:34px}
   .foot-grid h4{color:#fff;font-size:13px;margin-bottom:14px;text-transform:uppercase;letter-spacing:1.5px}
   .foot-grid a{display:block;margin-bottom:9px;color:var(--ink-soft)}
+  .footer-email{display:block;margin-bottom:9px;color:var(--ink-soft);unicode-bidi:plaintext}
   .foot-grid a:hover{color:#fff}
   .disclaimer{border-top:1px solid var(--line);padding-top:26px;font-size:11px;line-height:1.65;color:#5a6a88}
   @media (min-width:681px){

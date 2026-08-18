@@ -5,7 +5,10 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <!-- BK Traders Homepage v34 (modern dark) -->
 <title>BK Traders | Futures &amp; Forex Trading Indicators, Courses &amp; Daily Live Trading</title>
-<meta content="Trade smarter with Boris Schlossberg &amp; Kathy Lien. Premium futures and forex indicators, Strategy Coaching Club, daily live trading and free Daily Intel. Start free on Discord." name="description"/>
+<meta content="Learn futures and forex trading with Boris Schlossberg and Kathy Lien. Explore premium indicators, practical courses, live market analysis and Daily Intel." name="description"/>
+<meta content="BK Traders, futures trading education, forex trading education, trading indicators, market analysis, Boris Schlossberg, Kathy Lien, trading courses" name="keywords"/>
+<meta content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" name="robots"/>
+<link href="https://www.bktraders.com/" rel="canonical"/>
 <link href="favicon.ico" rel="icon" sizes="any"/>
 <link href="images/favicon.png" rel="icon" type="image/png" sizes="512x512"/>
 <link href="images/favicon-192.png" rel="icon" type="image/png" sizes="192x192"/>
@@ -14,6 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
 
 <link href="assets/css/styles.css" rel="stylesheet"/>
+<?php require __DIR__ . '/includes/analytics.php'; ?>
 </head>
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
