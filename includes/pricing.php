@@ -46,7 +46,7 @@
 <li>Private members only discord</li>
 <li>Direct line to Boris and Kathy</li>
 </ul>
-<a class="btn btn-gold" href="https://go.bktraders.com/access-strategy-club-v1">Join the Coaching Club</a>
+<a class="btn btn-gold" href="https://go.bktraders.com/access-bk-coaching-v1">Join the Coaching Club</a>
 <small>Billed every three months.</small>
 </article>
 </div>
