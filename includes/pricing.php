@@ -31,6 +31,7 @@
 </article>
 
 <article class="pricing-card pricing-card-coaching">
+<div class="pricing-limited-banner">Limited Time</div>
 <div class="pricing-ribbon">3 Months <span aria-hidden="true">·</span> Pro</div>
 <div class="pricing-card-top">
 <span class="pricing-kicker">Strategy + Accountability</span>
