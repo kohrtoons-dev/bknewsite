@@ -102,3 +102,20 @@ by cPanel. Keep the staging cron jobs only if the staging ticker also needs to
 remain current between deployments.
 
 More detailed deployment notes are available in `scripts/DEPLOYING.md`.
+
+### Legacy URL handlers
+
+The following physical directories issue permanent redirects after deployment,
+so they continue working even when the production `.htaccess` does not contain
+matching rewrite rules:
+
+```text
+/about-us/        -> /#mentors
+/trading-signals/ -> /#all-strategy-tools
+/tools/           -> /#indicators
+/trade-ideas/     -> /#pricing
+/shop/            -> /#pricing
+```
+
+These redirect directories must remain in staging so the deployment script can
+publish them to `public_html`.
