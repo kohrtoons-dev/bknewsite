@@ -28,7 +28,9 @@ bash /home/bktraders/newsite.bktraders.com/scripts/deploy-live.sh --deploy
 ```
 
 The live directory is synchronized to staging. Files that no longer exist in
-staging are removed from live, except for the explicitly protected paths.
+staging are removed from live, except for the explicitly protected root paths.
+The script also checks for leftover WordPress directories and reports a warning
+instead of claiming a clean deployment when they remain.
 
 ## 3. After the first launch
 

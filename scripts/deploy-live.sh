@@ -49,21 +49,22 @@ trap 'rmdir "$LOCK_DIR" 2>/dev/null || true' EXIT
 RSYNC_OPTIONS=(
     --archive
     --itemize-changes
-    --delete-delay
+    --delete-before
+    --force
     --human-readable
     --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r
-    --exclude=.htaccess
-    --exclude=.well-known/
-    --exclude=cgi-bin/
-    --exclude=_old/
-    --exclude=.git/
-    --exclude=.agents/
-    --exclude=.codex/
-    --exclude=outputs/
-    --exclude=README.md
-    --exclude=scripts/deploy-live.sh
-    --exclude=scripts/DEPLOYING.md
-    --exclude='storage/cache/*.lock'
+    --exclude=/.htaccess
+    --exclude=/.well-known/
+    --exclude=/cgi-bin/
+    --exclude=/_old/
+    --exclude=/.git/
+    --exclude=/.agents/
+    --exclude=/.codex/
+    --exclude=/outputs/
+    --exclude=/README.md
+    --exclude=/scripts/deploy-live.sh
+    --exclude=/scripts/DEPLOYING.md
+    --exclude='/storage/cache/*.lock'
 )
 
 case "$MODE" in
@@ -77,6 +78,21 @@ case "$MODE" in
     --deploy)
         printf '\nPublishing BK Traders staging to the live site...\n'
         rsync "${RSYNC_OPTIONS[@]}" "$SOURCE/" "$LIVE/"
+
+        LEGACY_WORDPRESS_PATHS=()
+        for legacy_path in wp-admin wp-content wp-includes wp-config.php wp-login.php; do
+            if [[ -e "$LIVE/$legacy_path" ]]; then
+                LEGACY_WORDPRESS_PATHS+=("$legacy_path")
+            fi
+        done
+
+        if (( ${#LEGACY_WORDPRESS_PATHS[@]} > 0 )); then
+            printf '\nWARNING: legacy WordPress paths remain in the live document root:\n' >&2
+            printf '  %s\n' "${LEGACY_WORDPRESS_PATHS[@]}" >&2
+            printf 'Review their ownership and permissions in cPanel before removing them.\n' >&2
+            exit 3
+        fi
+
         printf '\nDeployment complete: %s\n' "$(date '+%Y-%m-%d %H:%M:%S %Z')"
         printf 'The live .htaccess and cPanel system directories were preserved.\n\n'
         ;;
