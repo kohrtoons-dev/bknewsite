@@ -42,3 +42,63 @@ delayed chart feed. Run it every five minutes alongside the headline updater:
 `api/market-quotes.php` exposes the last successful quote cache plus the FED,
 FED SPEECH and ECB headline cache as read-only JSON for the BK OBS container.
 The protected `storage` directory remains inaccessible from the web.
+
+## Publishing staging to the live site
+
+The production workflow intentionally keeps only two website copies. Both are
+sibling directories under the cPanel account home:
+
+```text
+/home/bktraders/
+├── newsite.bktraders.com/   staging and approvals
+└── public_html/             live bktraders.com site
+```
+
+The deployment utility is stored at:
+
+```text
+/home/bktraders/newsite.bktraders.com/scripts/deploy-live.sh
+```
+
+### Preview a deployment
+
+Always run the preview first. It reports every file that would be copied,
+updated or removed without changing the live site:
+
+```bash
+bash /home/bktraders/newsite.bktraders.com/scripts/deploy-live.sh
+```
+
+Review all reported deletions. If `public_html` contains a folder belonging to
+another subdomain or application, add it to the exclusion list in
+`scripts/deploy-live.sh` before publishing.
+
+### Publish the approved staging site
+
+```bash
+bash /home/bktraders/newsite.bktraders.com/scripts/deploy-live.sh --deploy
+```
+
+The deployment synchronizes staging into `public_html`. It intentionally
+preserves the production `.htaccess`, `.well-known/` and `cgi-bin/` paths. The
+deployment script, development files and `_old/` archive are not published.
+
+Before the first launch, download an off-server backup of the existing live
+site. Do not manually empty `public_html`; let the deployment preview identify
+what will be removed.
+
+### Production ticker cron jobs
+
+After the main domain launches, use the live script paths for the production
+market cache:
+
+```bash
+/usr/local/bin/ea-php81 /home/bktraders/public_html/scripts/update-market-quotes.php
+/usr/local/bin/ea-php81 /home/bktraders/public_html/scripts/update-ticker-cache.php
+```
+
+The exact PHP CLI executable can vary by host. Use the PHP 8.1 path displayed
+by cPanel. Keep the staging cron jobs only if the staging ticker also needs to
+remain current between deployments.
+
+More detailed deployment notes are available in `scripts/DEPLOYING.md`.
