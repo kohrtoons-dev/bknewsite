@@ -80,7 +80,8 @@ bash /home/bktraders/newsite.bktraders.com/scripts/deploy-live.sh --deploy
 ```
 
 The deployment synchronizes staging into `public_html`. It intentionally
-preserves the production `.htaccess`, `.well-known/` and `cgi-bin/` paths. The
+preserves the production `.htaccess`, `.well-known/`, `cgi-bin/` and
+`duckrace/` paths. The
 deployment script, development files and `_old/` archive are not published.
 
 Before the first launch, download an off-server backup of the existing live

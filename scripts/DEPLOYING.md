@@ -5,7 +5,8 @@ The deployment script keeps two site copies:
 - Staging: `/home/bktraders/newsite.bktraders.com`
 - Live: `/home/bktraders/public_html`
 
-It preserves the live `.htaccess`, `.well-known` and `cgi-bin` paths. It also
+It preserves the live `.htaccess`, `.well-known`, `cgi-bin` and `duckrace`
+paths. It also
 excludes development-only folders, lock files, and the deployment utility itself
 so its server paths are not published through the live website.
 

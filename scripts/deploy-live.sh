@@ -56,6 +56,7 @@ RSYNC_OPTIONS=(
     --exclude=/.htaccess
     --exclude=/.well-known/
     --exclude=/cgi-bin/
+    --exclude=/duckrace/
     --exclude=/_old/
     --exclude=/.git/
     --exclude=/.agents/
