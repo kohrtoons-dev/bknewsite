@@ -8,7 +8,8 @@ The deployment script keeps two site copies:
 It preserves the live `.htaccess`, `.well-known`, `cgi-bin` and `duckrace`
 paths. It also
 excludes development-only folders, lock files, and the deployment utility itself
-so its server paths are not published through the live website.
+so its server paths are not published through the live website. The root
+`README.md` and `DASHBOARD-HANDOFF.md` files also remain staging-only.
 
 ## 1. Preview the deployment
 
