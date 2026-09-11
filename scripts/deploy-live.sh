@@ -63,6 +63,7 @@ RSYNC_OPTIONS=(
     --exclude=/.codex/
     --exclude=/outputs/
     --exclude=/README.md
+    --exclude=/DASHBOARD-HANDOFF.md
     --exclude=/scripts/deploy-live.sh
     --exclude=/scripts/DEPLOYING.md
     --exclude='/storage/cache/*.lock'
