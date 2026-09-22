@@ -50,3 +50,55 @@ Suggested live cron commands:
 ```
 
 Use the PHP CLI path shown in cPanel if it differs from the example above.
+
+## Missing pages and crawler traps
+
+Deploy the lightweight root `404.html` before adding this directive to the live
+`.htaccess` (the deployment script preserves that file):
+
+```apache
+ErrorDocument 404 /404.html
+```
+
+Use the local path shown above, not a full URL, so missing requests keep their
+404 status. The page has inline styles and no scripts, images or external fonts.
+
+Remove the obsolete WordPress catch-all that rewrites nonexistent paths to
+`/index.php`. Preserve legitimate redirects, cPanel PHP settings and rules needed
+by other applications. Keep a backup outside the public document root.
+
+Verify a real page still returns 200 and a made-up nested URL returns 404 with
+the new error page. If stale successful responses persist, check the active
+server/CDN caches and inherited error handling. Compare equal-duration access
+log windows after the change; old crawler requests can continue after the fix.
+
+## Installing the clean root .htaccess
+
+The repository root `.htaccess` replaces the supplied legacy WordPress/W3TC
+configuration. It preserves the supplied cPanel PHP settings and handler,
+authorization forwarding, retired WordPress directory 404s and Referrer-Policy.
+It uses native missing-file handling, a local 404 document, text compression,
+one-hour CSS/JS caching and 30-day image/font caching. It removes WordPress page
+cache and AVIF/WebP negotiation rules; original image URLs serve their original
+files. Existing directory-based PHP redirects remain in place.
+
+The live `.htaccess` is still excluded from automatic deployment. Update staging
+from Git, deploy `404.html`, then install the reviewed configuration manually.
+If cPanel added staging-only authentication or newer PHP settings, preserve those
+before updating staging. Compare live settings again if they changed since the
+supplied configuration was captured.
+
+From cPanel Terminal, after deploying the 404 page:
+
+```bash
+# Keep the backup outside the public document root.
+cp /home/bktraders/public_html/.htaccess /home/bktraders/htaccess-before-cleanup-$(date +%Y%m%d-%H%M%S).bak
+cp /home/bktraders/newsite.bktraders.com/.htaccess /home/bktraders/public_html/.htaccess
+```
+
+Confirm homepage and legal/broker pages return 200, existing legacy redirects
+return 301, and both random and deeply nested missing URLs return 404 with the
+small error page. Check `/duckrace/` and `/api/market-quotes.php` still work as
+expected. Parent/vhost configuration and subdirectory applications can override
+behavior, so local review does not replace these server checks. To roll back,
+copy the timestamped backup over the live `.htaccess`.
